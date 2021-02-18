@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+theme name:		ckau-book
+version:		2.0
+author:			Ckau
+license:		creative commons CC-BY-NC-SA
+github:			https://github.com/CkauNui/ckau-book
+-->
+
+<theme>
+	<formatVersion>7</formatVersion>
+	<include subset="colorset" name="Blue" displayName="${blue}">./_art/colors/blue.xml</include>
+	<include subset="colorset" name="Red" displayName="${red}">./_art/colors/red.xml</include>
+	<include subset="colorset" name="Green" displayName="${green}">./_art/colors/green.xml</include>
+	<include subset="colorset" name="Yellow" displayName="${yellow}">./_art/colors/yellow.xml</include>
+	<include subset="colorset" name="Violet" displayName="${violet}">./_art/colors/violet.xml</include>
+	<include subset="colorset" name="Cyan" displayName="${cyan}">./_art/colors/cyan.xml</include>
+	<include subset="colorset" name="Orange" displayName="${orange}">./_art/colors/orange.xml</include>
 
 <view name="splash">
 		<splash name="splash">
@@ -20,7 +37,7 @@
 
 		<image name="progressbar:active">
 			<tile>true</tile>
-			<path>./_art/splash/progressbar.png</path>
+			<path>./_art/images/progressbar.png</path>
 			<color>${baseColor}</color>
 			<colorEnd>${gradientEndColor}</colorEnd>
 			<gradientType>horizontal</gradientType>
@@ -29,7 +46,7 @@
 
 		<text name="label">
 			<color>FFFFFFFF</color>
-			<fontPath>./_art.Acre.otf</fontPath>
+			<fontPath>./_art/Acre.otf</fontPath>
 			<color>d9d9d9</color>
 			<glowColor>000000</glowColor>
 			<glowSize>4</glowSize>
