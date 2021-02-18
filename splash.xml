@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<view name="splash">
+		<splash name="splash">
+			<backgroundColor>161616</backgroundColor>
+		</splash>
+		<image name="background">
+			<path>./_art/splash/splash.jpg</path>
+		</image>
+
+		<image name="progressbar">
+			<origin>0 0</origin>
+			<pos>0.2005208333333333 0.9</pos>
+			<size>0.5989583333333333 0.0092592592592593</size>
+			<path>./_art/splash/progressbar.png</path>
+			<color>363636FF</color>
+			<roundCorners>0</roundCorners>
+			<zIndex>6</zIndex>
+		</image>
+
+		<image name="progressbar:active">
+			<tile>true</tile>
+			<path>./_art/splash/progressbar.png</path>
+			<color>${baseColor}</color>
+			<colorEnd>${gradientEndColor}</colorEnd>
+			<gradientType>horizontal</gradientType>
+			<zIndex>7</zIndex>
+		</image>
+
+		<text name="label">
+			<color>FFFFFFFF</color>
+			<fontPath>./_art.Acre.otf</fontPath>
+			<color>d9d9d9</color>
+			<glowColor>000000</glowColor>
+			<glowSize>4</glowSize>
+		</text>
+	</view>
+</theme>
