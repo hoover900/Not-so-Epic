@@ -11,7 +11,71 @@ Some controllers and graphics used in this theme are created by great artists wh
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please see README.md for full details.
 -->
 <theme>
-    <formatVersion>4</formatVersion>
+    <formatVersion>7</formatVersion>
+    <view name="menu">
+        <menuText name="menutitle">
+            <fontPath>./_art/BebasNeue.otf</fontPath>
+            <fontSize>0.035</fontSize>
+            <color>FAFAFA</color>
+        </menuText>
+        <menuText name="menufooter">
+            <fontPath>./_art/fonts/Acre.otf</fontPath>
+            <fontSize>0.02</fontSize>
+            <color>777777FF</color>
+        </menuText>
+        <menuText name="menutext" extra="true" tinyScreen="false">
+            <fontPath>./_art/fonts/Acre.otf</fontPath>
+            <fontSize>0.03</fontSize>
+            <color>969696</color>
+            <separatorColor>363636FF</separatorColor>
+            <selectorColor>${baseColor}</selectorColor>
+            <selectorColorEnd>${gradientEndColor}</selectorColorEnd>
+            <selectedColor>FFFFFF</selectedColor>
+            <selectorGradientType>horizontal</selectorGradientType>
+        </menuText>
+        <menuTextSmall name="menutextsmall" extra="true" tinyScreen="false">
+            <fontPath>./art/fonts/Acre.otf</fontPath>
+            <fontSize>0.02</fontSize>
+            <color>deec00</color>
+        </menuTextSmall>
+        <menuBackground name="menubg">
+            <color>202020</color>
+            <path>./_inc/images/frame.png</path>
+        </menuBackground>
+        <menuIcons name="menuicons">
+            <iconKodi>./_art/icons/Kodi.png</iconKodi>
+            <iconSystem>./_art/icons/System.png</iconSystem>
+            <iconUpdates>./_art/icons/Updates.png</iconUpdates>
+            <iconGames>./_art/icons/Games.png</iconGames>
+            <iconControllers>./_art/icons/Controllers.png</iconControllers>
+            <iconUI>./_art/icons/UI.png</iconUI>
+            <iconSound>./_art/icons/Sound.png</iconSound>
+            <iconNetwork>./_art/icons/Network.png</iconNetwork>
+            <iconScraper>./_art/icons/Scraper.png</iconScraper>
+            <iconAdvanced>./_art/icons/Advanced.png</iconAdvanced>
+            <iconQuit>./_art/icons/Quit.png</iconQuit>
+            <iconRestart>./_art/icons/Restart.png</iconRestart>
+            <iconShutdown>./_art/icons/Shutdown.png</iconShutdown>
+            <iconFastShutdown>./_art/icons/Fastshutdown.png</iconFastShutdown>
+            <iconRetroachievements>./_art/icons/Contest.png</iconRetroachievements>
+            <iconManual>./_art/icons/Manual.png</iconManual>
+        </menuIcons>
+        <menuTextEdit name="menutextedit">
+            <inactive>./_art/var/textinput_ninepatch.png</inactive>
+            <active>./_art/var/textinput_ninepatch_active.png</active>
+        </menuTextEdit>
+    </view>
+    <view name="screen">
+        <controllerActivity name="controllerActivity">
+            <pos>0.005 0.005</pos>
+            <size>0.085 0.025</size>
+            <itemSpacing>0.003</itemSpacing>
+            <imagePath>./_art/var/gamepad.svg</imagePath>
+            <color>FFFFFF80</color>
+            <activityColor>${baseColor}</activityColor>
+            <hotkeyColor>${gradientEndColor}</hotkeyColor>
+        </controllerActivity>
+    </view>
     <view name="system">
         <image name="background" extra="true">
             <path>./_art/var/dot.png</path>
@@ -28,6 +92,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <size>0 1</size>
         </image>
         <carousel name="systemcarousel">
+            <defaultTransition>instant</defaultTransition>
             <type>vertical</type>
             <color>00000000</color>
             <origin>1 1</origin>
@@ -38,7 +103,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <maxLogoCount>0</maxLogoCount>
         </carousel>
         <text name="sys_line1" extra="true">
-            <fontPath>./_art/BebasNeue.otf</fontPath>
+            <fontPath>./_art/fonts/BebasNeue.otf</fontPath>
             <alignment>left</alignment>
             <forceUppercase>1</forceUppercase>
             <color>FFFFFF</color>
@@ -48,7 +113,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <size>0 0</size>
         </text>
         <text name="sys_line2" extra="true">
-            <fontPath>./_art/BebasNeue.otf</fontPath>
+            <fontPath>./_art/fonts/BebasNeue.otf</fontPath>
             <alignment>left</alignment>
             <forceUppercase>1</forceUppercase>
             <color>FFFFFF</color>
@@ -58,7 +123,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <size>0 0</size>
         </text>
         <text name="shortdescription" extra="true">
-            <fontPath>./_art/Acre.otf</fontPath>
+            <fontPath>./_art/fonts/Acre.otf</fontPath>
             <alignment>left</alignment>
             <forceUppercase>0</forceUppercase>
             <fontSize>0.021</fontSize>
@@ -68,7 +133,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <size>0.320 0.033</size>
         </text>
         <text name="systemInfo">
-            <fontPath>./_art/Acre.otf</fontPath>
+            <fontPath>./_art/fonts/Acre.otf</fontPath>
             <alignment>left</alignment>
             <backgroundColor>00000000</backgroundColor>
             <forceUppercase>1</forceUppercase>
@@ -79,7 +144,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <fontSize>0.0315</fontSize>
         </text>
         <text name="longdescription" extra="true">
-            <fontPath>./_art/Acre.otf</fontPath>
+            <fontPath>./_art/fonts/Acre.otf</fontPath>
             <alignment>left</alignment>
             <forceUppercase>0</forceUppercase>
             <fontSize>0.021</fontSize>
@@ -89,7 +154,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <pos>0.084 0.322</pos>
             <size>0.28 0.20</size>
         </text>
-        <image name="buttonA" extra="true">
+        <image name="buttonA" extra="static">
             <path>./_art/var/button.svg</path>
             <tile>false</tile>
             <origin>0.5 0.5</origin>
@@ -97,7 +162,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <size>0 0.045</size>
             <zIndex>50</zIndex>
         </image>
-        <image name="topArrow" extra="true">
+        <image name="topArrow" extra="static">
             <path>./_art/var/arrow.svg</path>
             <tile>false</tile>
             <origin>0.5 0.5</origin>
@@ -106,7 +171,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <rotation>180</rotation>
             <zIndex>50</zIndex>
         </image>
-        <image name="bottomArrow" extra="true">
+        <image name="bottomArrow" extra="static">
             <path>./_art/var/arrow.svg</path>
             <tile>false</tile>
             <origin>0.5 0.5</origin>
@@ -136,7 +201,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <selectorHeight>0.05</selectorHeight>
             <primaryColor>585858</primaryColor>
             <secondaryColor>888888</secondaryColor>
-            <fontPath>./_art/Acre.otf</fontPath>
+            <fontPath>./_art/fonts/Acre.otf</fontPath>
             <alignment>left</alignment>
             <pos>0 0.0833</pos>
             <size>0.323 0.8513</size>
@@ -151,7 +216,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <maxSize>0.208 0.056</maxSize>
         </image>
         <text name="md_description">
-            <fontPath>./_art/Acre.otf</fontPath>
+            <fontPath>./_art/fonts/Acre.otf</fontPath>
             <color>818181</color>
             <fontSize>0.02</fontSize>
             <alignment>left</alignment>
@@ -164,13 +229,13 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         <text name="md_lbl_rating, md_lbl_genre, md_lbl_players">
             <color>F8F8F8</color>
             <forceUppercase>0</forceUppercase>
-            <fontPath>./_art/Acre.otf</fontPath>
+            <fontPath>./_art/fonts/Acre.otf</fontPath>
             <fontSize>0.0186</fontSize>
         </text>
         <text name="md_genre, md_players">
             <color>888888</color>
             <forceUppercase>0</forceUppercase>
-            <fontPath>./_art/Acre.otf</fontPath>
+            <fontPath>./_art/fonts/Acre.otf</fontPath>
             <fontSize>0.0186</fontSize>
         </text>
         <!-- Place metadata -->
@@ -189,7 +254,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <size>0.06 0.07</size>
         </text>
         <text name="md_players">
-            <fontPath>./_art/Acre.otf</fontPath>
+            <fontPath>./_art/fonts/Acre.otf</fontPath>
             <color>888888</color>
             <fontSize>0.0186</fontSize>
             <pos>0.672 0.932</pos>
@@ -205,7 +270,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         </text>
         <!-- Extra Text Labels. Edit text values if needed.-->
         <text name="players_lbl_2, btn_a, btn_b, btn_x" extra="true">
-            <fontPath>./_art/Acre.otf</fontPath>
+            <fontPath>./_art/fonts/Acre.otf</fontPath>
             <color>888888</color>
             <fontSize>0.0186</fontSize>
         </text>
@@ -231,7 +296,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         </text>
         <text name="txt_descript" extra="true">
             <text>Description</text>
-            <fontPath>./_art/Acre.otf</fontPath>
+            <fontPath>./_art/fonts/Acre.otf</fontPath>
             <alignment>left</alignment>
             <fontSize>0.0186</fontSize>
             <color>ffffff</color>
