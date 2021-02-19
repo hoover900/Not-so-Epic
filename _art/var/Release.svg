@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 101 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-420,0)">
+        <g id="Release-Date" serif:id="Release Date" transform="matrix(1,0,0,0.6,420.6,0)">
+            <rect x="0" y="0" width="100" height="100" style="fill:none;"/>
+            <g id="Realease-Date" serif:id="Realease Date" transform="matrix(1,0,0,1.66667,21.5,19.5833)">
+                <g id="RELEASEDATE---ICON">
+                    <g id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,15.5,-5.5)">
+                        <path d="M15.5,5C15.5,4.172 14.828,3.5 14,3.5L7,3.5C6.172,3.5 5.5,4.172 5.5,5C5.5,5.828 6.172,6.5 7,6.5L14,6.5C14.828,6.5 15.5,5.828 15.5,5Z" style="fill:white;"/>
+                    </g>
+                    <rect id="Rectangle1" serif:id="Rectangle" x="0" y="11" width="57" height="2" style="fill:white;"/>
+                    <g id="Rectangle2" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,51.5,-41.5)">
+                        <path d="M51.5,5C51.5,4.172 50.828,3.5 50,3.5L43,3.5C42.172,3.5 41.5,4.172 41.5,5C41.5,5.828 42.172,6.5 43,6.5L50,6.5C50.828,6.5 51.5,5.828 51.5,5Z" style="fill:white;"/>
+                    </g>
+                    <path id="Rectangle3" serif:id="Rectangle" d="M55.5,7.056C55.5,5.645 54.355,4.5 52.944,4.5L4.056,4.5C2.645,4.5 1.5,5.645 1.5,7.056L1.5,33.944C1.5,35.355 2.645,36.5 4.056,36.5L52.944,36.5C54.355,36.5 55.5,35.355 55.5,33.944L55.5,7.056Z" style="fill:none;stroke:white;stroke-width:3px;"/>
+                    <circle id="Oval" cx="14.5" cy="16.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval1" serif:id="Oval" cx="21.5" cy="16.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval2" serif:id="Oval" cx="28.5" cy="16.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval3" serif:id="Oval" cx="35.5" cy="16.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval4" serif:id="Oval" cx="42.5" cy="16.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval5" serif:id="Oval" cx="49.5" cy="16.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval6" serif:id="Oval" cx="7.5" cy="21.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval7" serif:id="Oval" cx="14.5" cy="21.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval8" serif:id="Oval" cx="21.5" cy="21.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval9" serif:id="Oval" cx="28.5" cy="21.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval10" serif:id="Oval" cx="35.5" cy="21.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval11" serif:id="Oval" cx="42.5" cy="21.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval12" serif:id="Oval" cx="49.5" cy="21.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval13" serif:id="Oval" cx="7.5" cy="26.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval14" serif:id="Oval" cx="14.5" cy="26.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval15" serif:id="Oval" cx="21.5" cy="26.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval16" serif:id="Oval" cx="28.5" cy="26.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval17" serif:id="Oval" cx="35.5" cy="26.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval18" serif:id="Oval" cx="42.5" cy="26.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval19" serif:id="Oval" cx="49.5" cy="26.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval20" serif:id="Oval" cx="7.5" cy="31.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval21" serif:id="Oval" cx="14.5" cy="31.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval22" serif:id="Oval" cx="21.5" cy="31.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval23" serif:id="Oval" cx="28.5" cy="31.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval24" serif:id="Oval" cx="35.5" cy="31.5" r="1.5" style="fill:white;"/>
+                    <circle id="Oval25" serif:id="Oval" cx="42.5" cy="31.5" r="1.5" style="fill:white;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

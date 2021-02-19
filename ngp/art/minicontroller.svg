@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 101 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-140,-372)">
+        <g id="Neo-Geo-Pocket" serif:id="Neo Geo Pocket" transform="matrix(1,0,0,0.6,140.2,372)">
+            <rect x="0" y="0" width="100" height="100" style="fill:none;"/>
+            <g id="Group-225" serif:id="Group 225" transform="matrix(1,0,0,1.66667,-24.9186,13.59)">
+                <path id="Rectangle-229" serif:id="Rectangle 229" d="M45.667,2.192L104.171,2.192C105.336,2.192 106.281,3.137 106.281,4.303L106.281,33.834C106.281,37.567 103.361,40.311 99.541,40.471C99.517,40.472 99.493,40.472 99.468,40.474C99.237,40.483 98.984,40.493 98.724,40.517C96.734,40.694 87.04,41.5 74.919,41.5C62.798,41.5 53.104,40.694 51.114,40.517C50.854,40.493 50.6,40.483 50.369,40.474C50.345,40.472 50.321,40.472 50.297,40.471C46.476,40.311 43.556,37.567 43.556,33.834L43.556,4.303C43.556,3.137 44.501,2.192 45.667,2.192Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2px;"/>
+                <path id="Rectangle-230" serif:id="Rectangle 230" d="M46.334,9.992C46.334,9.464 46.761,9.036 47.289,9.036L49.867,9.036C50.394,9.036 50.822,9.464 50.822,9.992C50.822,10.519 50.394,10.947 49.867,10.947L47.289,10.947C46.761,10.947 46.334,10.519 46.334,9.992Z" style="fill:white;fill-rule:nonzero;"/>
+                <circle id="Ellipse-135" serif:id="Ellipse 135" cx="54.489" cy="9.992" r="0.778" style="fill:white;"/>
+                <circle id="Ellipse-136" serif:id="Ellipse 136" cx="52.066" cy="19.346" r="3.344" style="fill:white;"/>
+                <circle id="Ellipse-137" serif:id="Ellipse 137" cx="52.066" cy="19.346" r="5.233" style="fill:none;stroke:white;stroke-width:1px;"/>
+                <g id="Group-223" serif:id="Group 223">
+                    <g id="Group-219" serif:id="Group 219">
+                        <circle id="Ellipse-138" serif:id="Ellipse 138" cx="49.961" cy="30.145" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-139" serif:id="Ellipse 139" cx="51.014" cy="30.145" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-140" serif:id="Ellipse 140" cx="52.067" cy="30.145" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-141" serif:id="Ellipse 141" cx="53.119" cy="30.145" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-142" serif:id="Ellipse 142" cx="54.172" cy="30.145" r="0.311" style="fill:white;"/>
+                    </g>
+                    <g id="Group-220" serif:id="Group 220">
+                        <circle id="Ellipse-138_2" serif:id="Ellipse 138_2" cx="49.961" cy="31.234" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-139_2" serif:id="Ellipse 139_2" cx="51.014" cy="31.234" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-140_2" serif:id="Ellipse 140_2" cx="52.067" cy="31.234" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-141_2" serif:id="Ellipse 141_2" cx="53.119" cy="31.234" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-142_2" serif:id="Ellipse 142_2" cx="54.172" cy="31.234" r="0.311" style="fill:white;"/>
+                    </g>
+                    <g id="Group-221" serif:id="Group 221">
+                        <circle id="Ellipse-138_3" serif:id="Ellipse 138_3" cx="49.961" cy="32.323" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-139_3" serif:id="Ellipse 139_3" cx="51.014" cy="32.323" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-140_3" serif:id="Ellipse 140_3" cx="52.067" cy="32.323" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-141_3" serif:id="Ellipse 141_3" cx="53.119" cy="32.323" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-142_3" serif:id="Ellipse 142_3" cx="54.172" cy="32.323" r="0.311" style="fill:white;"/>
+                    </g>
+                    <g id="Group-222" serif:id="Group 222">
+                        <circle id="Ellipse-138_4" serif:id="Ellipse 138_4" cx="49.961" cy="33.412" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-139_4" serif:id="Ellipse 139_4" cx="51.014" cy="33.412" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-140_4" serif:id="Ellipse 140_4" cx="52.067" cy="33.412" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-141_4" serif:id="Ellipse 141_4" cx="53.119" cy="33.412" r="0.311" style="fill:white;"/>
+                        <circle id="Ellipse-142_4" serif:id="Ellipse 142_4" cx="54.172" cy="33.412" r="0.311" style="fill:white;"/>
+                    </g>
+                </g>
+                <circle id="Ellipse-143" serif:id="Ellipse 143" cx="100.463" cy="6.947" r="1.333" style="fill:white;"/>
+                <circle id="Ellipse-144" serif:id="Ellipse 144" cx="100.884" cy="14.991" r="2.333" style="fill:white;"/>
+                <circle id="Ellipse-145" serif:id="Ellipse 145" cx="95.263" cy="18.524" r="2.333" style="fill:white;"/>
+                <path id="Rectangle-231" serif:id="Rectangle 231" d="M60.51,4.914L89.219,4.914C89.728,4.914 90.141,5.327 90.141,5.836L90.141,34.306C90.141,34.761 89.813,35.13 89.379,35.178C87.315,35.408 82.532,35.823 74.864,35.823C67.196,35.823 62.414,35.408 60.35,35.178C59.916,35.13 59.588,34.761 59.588,34.306L59.588,5.836C59.588,5.327 60.001,4.914 60.51,4.914Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+                <path id="Rectangle-232" serif:id="Rectangle 232" d="M62.955,9.269L86.731,9.269C86.773,9.269 86.808,9.304 86.808,9.347L86.808,32.056C86.808,32.099 86.773,32.134 86.731,32.134L62.955,32.134C62.912,32.134 62.877,32.099 62.877,32.056L62.877,9.347C62.877,9.304 62.912,9.269 62.955,9.269Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+            </g>
+        </g>
+    </g>
+</svg>

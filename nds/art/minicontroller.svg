@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,0,-372)">
+        <g id="Nintendo-DS" serif:id="Nintendo DS" transform="matrix(1,0,0,0.6,0,372)">
+            <rect x="0" y="0" width="100" height="100" style="fill:none;"/>
+            <g id="Group-242" serif:id="Group 242" transform="matrix(1,0,0,1.66667,-24.8869,4.99969)">
+                <path id="Rectangle-233" serif:id="Rectangle 233" d="M50.278,1.26L99.559,1.26C100.02,1.26 100.394,1.633 100.394,2.094L100.394,25.197L49.444,25.197L49.444,2.094C49.444,1.633 49.818,1.26 50.278,1.26Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2px;"/>
+                <path id="Rectangle-236" serif:id="Rectangle 236" d="M50.278,25.197L99.559,25.197C100.02,25.197 100.394,25.571 100.394,26.032L100.394,51.906C100.394,52.367 100.02,52.741 99.559,52.741L50.278,52.741C49.818,52.741 49.444,52.367 49.444,51.906L49.444,26.032C49.444,25.571 49.818,25.197 50.278,25.197Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2px;"/>
+                <g id="Group-232" serif:id="Group 232">
+                    <path id="Rectangle-234" serif:id="Rectangle 234" d="M62.63,3.606L87.398,3.606C87.624,3.606 87.808,3.79 87.808,4.017L87.808,22.471C87.808,22.698 87.624,22.882 87.398,22.882L62.63,22.882C62.404,22.882 62.22,22.698 62.22,22.471L62.22,4.017C62.22,3.79 62.404,3.606 62.63,3.606Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+                    <rect id="Rectangle-235" serif:id="Rectangle 235" x="63.86" y="5.142" width="22.309" height="16.203" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+                </g>
+                <g id="Group-236" serif:id="Group 236">
+                    <path id="Rectangle-234_2" serif:id="Rectangle 234_2" d="M62.63,30.142L87.398,30.142C87.624,30.142 87.808,30.326 87.808,30.553L87.808,49.007C87.808,49.234 87.624,49.417 87.398,49.417L62.63,49.417C62.404,49.417 62.22,49.234 62.22,49.007L62.22,30.553C62.22,30.326 62.404,30.142 62.63,30.142Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+                    <rect id="Rectangle-235_2" serif:id="Rectangle 235_2" x="63.86" y="31.678" width="22.309" height="16.203" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+                </g>
+                <g id="Group-240" serif:id="Group 240">
+                    <g id="Group-239" serif:id="Group 239">
+                        <g id="Group-226" serif:id="Group 226">
+                            <circle id="Ellipse-146" serif:id="Ellipse 146" cx="53.714" cy="12.2" r="0.316" style="fill:white;stroke:white;stroke-width:0.5px;"/>
+                            <circle id="Ellipse-147" serif:id="Ellipse 147" cx="55.707" cy="12.2" r="0.316" style="fill:white;stroke:white;stroke-width:0.5px;"/>
+                            <circle id="Ellipse-148" serif:id="Ellipse 148" cx="57.7" cy="12.2" r="0.316" style="fill:white;stroke:white;stroke-width:0.5px;"/>
+                        </g>
+                        <g id="Group-227" serif:id="Group 227">
+                            <circle id="Ellipse-146_2" serif:id="Ellipse 146_2" cx="53.714" cy="14.256" r="0.316" style="fill:white;stroke:white;stroke-width:0.5px;"/>
+                            <circle id="Ellipse-147_2" serif:id="Ellipse 147_2" cx="55.707" cy="14.256" r="0.316" style="fill:white;stroke:white;stroke-width:0.5px;"/>
+                            <circle id="Ellipse-148_2" serif:id="Ellipse 148_2" cx="57.7" cy="14.256" r="0.316" style="fill:white;stroke:white;stroke-width:0.5px;"/>
+                        </g>
+                    </g>
+                    <g id="Group-238" serif:id="Group 238">
+                        <g id="Group-228" serif:id="Group 228">
+                            <circle id="Ellipse-146_3" serif:id="Ellipse 146_3" cx="92.107" cy="12.2" r="0.316" style="fill:white;stroke:white;stroke-width:0.5px;"/>
+                            <circle id="Ellipse-147_3" serif:id="Ellipse 147_3" cx="94.1" cy="12.2" r="0.316" style="fill:white;stroke:white;stroke-width:0.5px;"/>
+                            <circle id="Ellipse-148_3" serif:id="Ellipse 148_3" cx="96.092" cy="12.2" r="0.316" style="fill:white;stroke:white;stroke-width:0.5px;"/>
+                        </g>
+                        <g id="Group-229" serif:id="Group 229">
+                            <circle id="Ellipse-146_4" serif:id="Ellipse 146_4" cx="92.107" cy="14.256" r="0.316" style="fill:white;stroke:white;stroke-width:0.5px;"/>
+                            <circle id="Ellipse-147_4" serif:id="Ellipse 147_4" cx="94.1" cy="14.256" r="0.316" style="fill:white;stroke:white;stroke-width:0.5px;"/>
+                            <circle id="Ellipse-148_4" serif:id="Ellipse 148_4" cx="96.092" cy="14.256" r="0.316" style="fill:white;stroke:white;stroke-width:0.5px;"/>
+                        </g>
+                    </g>
+                </g>
+                <path id="Line-53" serif:id="Line 53" d="M48.95,28.43L100.824,28.43" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+                <g id="Group-231" serif:id="Group 231">
+                    <path id="Rectangle-237" serif:id="Rectangle 237" d="M98.895,24.893C98.895,24.762 98.789,24.656 98.658,24.656C98.527,24.656 98.421,24.762 98.421,24.893L98.421,27.012C98.421,27.143 98.527,27.25 98.658,27.25C98.789,27.25 98.895,27.143 98.895,27.012L98.895,24.893Z" style="fill:white;"/>
+                    <path id="Rectangle-238" serif:id="Rectangle 238" d="M98.041,24.893C98.041,24.762 97.935,24.656 97.804,24.656C97.673,24.656 97.567,24.762 97.567,24.893L97.567,27.012C97.567,27.143 97.673,27.25 97.804,27.25C97.935,27.25 98.041,27.143 98.041,27.012L98.041,24.893Z" style="fill:white;"/>
+                </g>
+                <g id="Group-230" serif:id="Group 230">
+                    <path id="Line-54" serif:id="Line 54" d="M54.381,28.929L54.381,26.083" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+                    <path id="Line-55" serif:id="Line 55" d="M94.457,28.929L94.457,26.083" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;"/>
+                </g>
+                <g id="Group-237" serif:id="Group 237">
+                    <path id="Rectangle-239" serif:id="Rectangle 239" d="M56.498,34.319C56.498,34.179 56.384,34.066 56.245,34.066L54.442,34.066C54.302,34.066 54.189,34.179 54.189,34.319L54.189,40.772C54.189,40.911 54.302,41.025 54.442,41.025L56.245,41.025C56.384,41.025 56.498,40.911 56.498,40.772L56.498,34.319Z" style="fill:white;"/>
+                    <g id="Rectangle-240" serif:id="Rectangle 240" transform="matrix(-3.82857e-16,-1,1,-3.82857e-16,13.1638,90.5638)">
+                        <path d="M54.173,38.953C54.173,38.813 54.059,38.7 53.92,38.7L52.117,38.7C51.977,38.7 51.864,38.813 51.864,38.953L51.864,45.406C51.864,45.545 51.977,45.659 52.117,45.659L53.92,45.659C54.059,45.659 54.173,45.545 54.173,45.406L54.173,38.953Z" style="fill:white;"/>
+                    </g>
+                </g>
+                <g id="Group-234" serif:id="Group 234">
+                    <circle id="Ellipse-149" serif:id="Ellipse 149" cx="94.1" cy="33.465" r="1.487" style="fill:white;"/>
+                    <circle id="Ellipse-150" serif:id="Ellipse 150" cx="94.099" cy="39.475" r="1.487" style="fill:white;"/>
+                </g>
+                <g id="Group-235" serif:id="Group 235">
+                    <g id="Ellipse-149_2" serif:id="Ellipse 149_2" transform="matrix(-3.82857e-16,-1,1,-3.82857e-16,54.6247,127.565)">
+                        <circle cx="91.095" cy="36.47" r="1.487" style="fill:white;"/>
+                    </g>
+                    <g id="Ellipse-150_2" serif:id="Ellipse 150_2" transform="matrix(-3.82857e-16,-1,1,-3.82857e-16,60.6344,133.574)">
+                        <circle cx="97.104" cy="36.47" r="1.487" style="fill:white;"/>
+                    </g>
+                </g>
+                <circle id="Ellipse-151" serif:id="Ellipse 151" cx="91.351" cy="46.197" r="0.743" style="fill:white;"/>
+                <circle id="Ellipse-152" serif:id="Ellipse 152" cx="91.351" cy="49.359" r="0.743" style="fill:white;"/>
+            </g>
+        </g>
+    </g>
+</svg>

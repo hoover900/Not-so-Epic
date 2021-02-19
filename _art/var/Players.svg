@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 101 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-140,0)">
+        <g id="Players" transform="matrix(1,0,0,0.6,140.2,0)">
+            <rect x="0" y="0" width="100" height="100" style="fill:none;"/>
+            <g id="Players1" serif:id="Players" transform="matrix(1,0,0,1.66667,21.5,18.3333)">
+                <g id="PLAYERS---ICON">
+                    <circle id="Oval" cx="14" cy="8" r="6.5" style="fill:none;stroke:white;stroke-width:3px;"/>
+                    <path id="Rectangle" d="M21,19.5L7,19.5C5.481,19.5 4.106,20.116 3.111,21.111C2.116,22.106 1.5,23.481 1.5,25L1.5,36.5L26.5,36.5L26.5,25C26.5,23.481 25.884,22.106 24.889,21.111C23.894,20.116 22.519,19.5 21,19.5Z" style="fill:none;stroke:white;stroke-width:3px;"/>
+                    <circle id="Oval1" serif:id="Oval" cx="43" cy="8" r="6.5" style="fill:none;stroke:white;stroke-width:3px;"/>
+                    <path id="Rectangle1" serif:id="Rectangle" d="M50,19.5L36,19.5C34.481,19.5 33.106,20.116 32.111,21.111C31.116,22.106 30.5,23.481 30.5,25L30.5,36.5L55.5,36.5L55.5,25C55.5,23.481 54.884,22.106 53.889,21.111C52.894,20.116 51.519,19.5 50,19.5Z" style="fill:none;stroke:white;stroke-width:3px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

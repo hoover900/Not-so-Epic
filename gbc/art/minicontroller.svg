@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 101 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;">
+    <g transform="matrix(1,0,0,1,-560,-496)">
+        <g id="Game-Boy-Color" serif:id="Game Boy Color" transform="matrix(1,0,0,0.6,560.8,496)">
+            <rect x="0" y="0" width="100" height="100" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="100" height="100"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g id="Group-218" serif:id="Group 218" transform="matrix(1,0,0,1.66667,-25.0708,0.8649)">
+                    <path id="Rectangle-213" serif:id="Rectangle 213" d="M59.446,3.564C59.446,3.051 59.862,2.635 60.375,2.635L89.766,2.635C90.28,2.635 90.696,3.051 90.696,3.564L90.696,51.126C90.696,52.601 89.974,53.968 88.59,54.478C86.357,55.301 82.152,56.328 75.071,56.328C67.99,56.328 63.785,55.301 61.551,54.478C60.167,53.968 59.446,52.601 59.446,51.126L59.446,3.564Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2px;"/>
+                    <g id="Group-215" serif:id="Group 215">
+                        <g id="Vector">
+                            <path d="M64.398,34.851C64.398,34.695 64.525,34.568 64.682,34.568L66.654,34.568C66.81,34.568 66.937,34.695 66.937,34.851L66.937,41.305C66.937,41.462 66.81,41.588 66.654,41.588L64.682,41.588C64.525,41.588 64.398,41.462 64.398,41.305L64.398,34.851Z" style="fill:white;fill-rule:nonzero;"/>
+                            <path d="M62.441,39.348C62.284,39.348 62.157,39.221 62.157,39.064L62.157,37.092C62.157,36.936 62.284,36.809 62.441,36.809L68.894,36.809C69.051,36.809 69.178,36.936 69.178,37.092L69.178,39.064C69.178,39.221 69.051,39.348 68.894,39.348L62.441,39.348Z" style="fill:white;fill-rule:nonzero;"/>
+                        </g>
+                        <circle id="Ellipse-95" serif:id="Ellipse 95" cx="80.597" cy="39.032" r="1.763" style="fill:white;"/>
+                        <circle id="Ellipse-96" serif:id="Ellipse 96" cx="86.221" cy="37.25" r="1.763" style="fill:white;"/>
+                    </g>
+                    <g id="Group-212" serif:id="Group 212">
+                        <path id="Rectangle-216" serif:id="Rectangle 216" d="M74.416,47.241C74.416,46.961 74.189,46.734 73.909,46.734L71.74,46.734C71.46,46.734 71.232,46.961 71.232,47.241C71.232,47.521 71.46,47.748 71.74,47.748L73.909,47.748C74.189,47.748 74.416,47.521 74.416,47.241Z" style="fill:white;"/>
+                        <path id="Rectangle-217" serif:id="Rectangle 217" d="M78.909,47.241C78.909,46.961 78.682,46.734 78.402,46.734L76.232,46.734C75.952,46.734 75.725,46.961 75.725,47.241C75.725,47.521 75.952,47.748 76.232,47.748L78.402,47.748C78.682,47.748 78.909,47.521 78.909,47.241Z" style="fill:white;"/>
+                    </g>
+                    <g id="Group-216" serif:id="Group 216">
+                        <g id="Group-211" serif:id="Group 211">
+                            <path id="Rectangle-214" serif:id="Rectangle 214" d="M63.079,5.078L87.063,5.078C87.709,5.078 88.233,5.601 88.233,6.247L88.233,27.134C88.233,27.685 87.852,28.144 87.329,28.234C85.204,28.601 80.661,29.249 75.071,29.249C69.481,29.249 64.938,28.601 62.813,28.234C62.29,28.144 61.909,27.685 61.909,27.134L61.909,6.247C61.909,5.601 62.433,5.078 63.079,5.078Z" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;stroke-linecap:butt;"/>
+                            <rect id="Rectangle-215" serif:id="Rectangle 215" x="66.687" y="7.961" width="16.768" height="15.485" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:1px;stroke-linecap:butt;"/>
+                        </g>
+                        <circle id="Ellipse-97" serif:id="Ellipse 97" cx="64.921" cy="15.061" r="0.501" style="fill:white;"/>
+                    </g>
+                    <g id="Group-213" serif:id="Group 213">
+                        <circle id="Ellipse-108" serif:id="Ellipse 108" cx="82.786" cy="47.112" r="0.238" style="fill:white;"/>
+                        <circle id="Ellipse-109" serif:id="Ellipse 109" cx="84.615" cy="46.874" r="0.238" style="fill:white;"/>
+                        <circle id="Ellipse-110" serif:id="Ellipse 110" cx="86.443" cy="46.476" r="0.238" style="fill:white;"/>
+                    </g>
+                    <g id="Group-214" serif:id="Group 214">
+                        <circle id="Ellipse-108_2" serif:id="Ellipse 108_2" cx="83.67" cy="53.356" r="0.238" style="fill:white;"/>
+                        <circle id="Ellipse-109_2" serif:id="Ellipse 109_2" cx="85.499" cy="53.118" r="0.238" style="fill:white;"/>
+                        <circle id="Ellipse-110_2" serif:id="Ellipse 110_2" cx="87.327" cy="52.72" r="0.238" style="fill:white;"/>
+                    </g>
+                    <circle id="Ellipse-111" serif:id="Ellipse 111" cx="81.842" cy="48.128" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-112" serif:id="Ellipse 112" cx="83.67" cy="47.919" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-113" serif:id="Ellipse 113" cx="85.604" cy="47.59" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-114" serif:id="Ellipse 114" cx="87.432" cy="47.212" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-115" serif:id="Ellipse 115" cx="82.786" cy="48.932" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-116" serif:id="Ellipse 116" cx="84.615" cy="48.723" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-117" serif:id="Ellipse 117" cx="86.548" cy="48.394" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-118" serif:id="Ellipse 118" cx="88.376" cy="48.017" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-119" serif:id="Ellipse 119" cx="81.842" cy="50.016" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-120" serif:id="Ellipse 120" cx="83.67" cy="49.807" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-121" serif:id="Ellipse 121" cx="85.604" cy="49.478" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-122" serif:id="Ellipse 122" cx="87.432" cy="49.1" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-123" serif:id="Ellipse 123" cx="82.786" cy="50.789" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-124" serif:id="Ellipse 124" cx="84.615" cy="50.58" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-125" serif:id="Ellipse 125" cx="86.548" cy="50.25" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-126" serif:id="Ellipse 126" cx="88.376" cy="49.873" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-127" serif:id="Ellipse 127" cx="81.842" cy="51.802" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-128" serif:id="Ellipse 128" cx="83.67" cy="51.593" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-129" serif:id="Ellipse 129" cx="85.604" cy="51.264" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-130" serif:id="Ellipse 130" cx="87.432" cy="50.886" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-131" serif:id="Ellipse 131" cx="82.786" cy="52.575" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-132" serif:id="Ellipse 132" cx="84.615" cy="52.366" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-133" serif:id="Ellipse 133" cx="86.548" cy="52.037" r="0.238" style="fill:white;"/>
+                    <circle id="Ellipse-134" serif:id="Ellipse 134" cx="88.376" cy="51.659" r="0.238" style="fill:white;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

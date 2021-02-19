@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 101 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-140,-124)">
+        <g id="Nintendo" transform="matrix(1,0,0,0.6,140.2,124)">
+            <rect x="0" y="0" width="100" height="100" style="fill:none;"/>
+            <g id="Nintendo1" serif:id="Nintendo" transform="matrix(1,0,0,1.66667,18,24.1667)">
+                <g id="NES-controller">
+                    <g id="Group-39" transform="matrix(1,0,0,1,7,11)">
+                        <path id="Rectangle" d="M7.714,0.771C7.714,0.346 7.369,0 6.943,0L5.057,0C4.631,0 4.286,0.346 4.286,0.771L4.286,11.229C4.286,11.654 4.631,12 5.057,12L6.943,12C7.369,12 7.714,11.654 7.714,11.229L7.714,0.771Z" style="fill:white;"/>
+                        <g id="Rectangle1" serif:id="Rectangle" transform="matrix(-3.82857e-16,-1,1,-3.82857e-16,2.66454e-15,12)">
+                            <path d="M5.057,0L6.943,0C7.369,0 7.714,0.345 7.714,0.771L7.714,11.229C7.714,11.655 7.369,12 6.943,12L5.057,12C4.631,12 4.286,11.655 4.286,11.229L4.286,0.771C4.286,0.345 4.631,-0 5.057,0Z" style="fill:white;"/>
+                        </g>
+                    </g>
+                    <path id="Rectangle2" serif:id="Rectangle" d="M27.165,21.616C27.165,21.34 26.941,21.116 26.665,21.116L24.665,21.116C24.389,21.116 24.165,21.34 24.165,21.616C24.165,21.892 24.389,22.116 24.665,22.116L26.665,22.116C26.941,22.116 27.165,21.892 27.165,21.616Z" style="fill:none;stroke:white;stroke-width:2px;"/>
+                    <path id="Rectangle3" serif:id="Rectangle" d="M34,21.616C34,21.34 33.776,21.116 33.5,21.116L31.5,21.116C31.224,21.116 31,21.34 31,21.616C31,21.892 31.224,22.116 31.5,22.116L33.5,22.116C33.776,22.116 34,21.892 34,21.616Z" style="fill:none;stroke:white;stroke-width:2px;"/>
+                    <path id="Rectangle4" serif:id="Rectangle" d="M62.5,4.5C62.5,2.844 61.156,1.5 59.5,1.5L4.5,1.5C2.844,1.5 1.5,2.844 1.5,4.5L1.5,26.5C1.5,28.156 2.844,29.5 4.5,29.5L59.5,29.5C61.156,29.5 62.5,28.156 62.5,26.5L62.5,4.5Z" style="fill:none;stroke:white;stroke-width:3px;"/>
+                    <circle id="Oval" cx="42.5" cy="19.5" r="2.5" style="fill:white;"/>
+                    <rect id="Rectangle5" serif:id="Rectangle" x="5" y="7" width="54" height="19" style="fill:none;stroke:white;stroke-width:1px;"/>
+                    <rect id="Rectangle6" serif:id="Rectangle" x="22" y="7" width="14" height="2" style="fill:none;stroke:white;stroke-width:1px;"/>
+                    <rect id="Rectangle7" serif:id="Rectangle" x="22" y="11" width="14" height="2" style="fill:none;stroke:white;stroke-width:1px;"/>
+                    <rect id="Rectangle8" serif:id="Rectangle" x="22" y="15" width="14" height="2" style="fill:none;stroke:white;stroke-width:1px;"/>
+                    <rect id="Rectangle9" serif:id="Rectangle" x="39" y="16" width="7" height="7" style="fill:none;stroke:white;stroke-width:1px;"/>
+                    <rect id="Rectangle10" serif:id="Rectangle" x="22" y="19" width="14" height="4" style="fill:none;stroke:white;stroke-width:1px;"/>
+                    <circle id="Oval1" serif:id="Oval" cx="51.5" cy="19.5" r="2.5" style="fill:white;"/>
+                    <rect id="Rectangle11" serif:id="Rectangle" x="48" y="16" width="7" height="7" style="fill:none;stroke:white;stroke-width:1px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

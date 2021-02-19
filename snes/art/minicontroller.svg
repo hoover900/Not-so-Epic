@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 101 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-560,-248)">
+        <g id="SNES" transform="matrix(1,0,0,0.6,560.8,248)">
+            <rect x="0" y="0" width="100" height="100" style="fill:none;"/>
+            <g id="MD_GENRE-INFO" transform="matrix(1,0,0,1.66667,15.5,23.3333)">
+                <g id="SNES-CONTROLLER---ICON">
+                    <g id="Group-40" transform="matrix(1,0,0,1,7,7)">
+                        <circle id="Oval" cx="9" cy="9" r="8" style="fill:none;stroke:white;stroke-width:2px;"/>
+                        <g id="Group-39" transform="matrix(1,0,0,1,3,3)">
+                            <path id="Rectangle" d="M7.714,0.771C7.714,0.346 7.369,0 6.943,0L5.057,0C4.631,0 4.286,0.346 4.286,0.771L4.286,11.229C4.286,11.654 4.631,12 5.057,12L6.943,12C7.369,12 7.714,11.654 7.714,11.229L7.714,0.771Z" style="fill:white;"/>
+                            <g id="Rectangle1" serif:id="Rectangle" transform="matrix(-3.82857e-16,-1,1,-3.82857e-16,2.66454e-15,12)">
+                                <path d="M5.057,0L6.943,0C7.369,0 7.714,0.345 7.714,0.771L7.714,11.229C7.714,11.655 7.369,12 6.943,12L5.057,12C4.631,12 4.286,11.655 4.286,11.229L4.286,0.771C4.286,0.345 4.631,-0 5.057,0Z" style="fill:white;"/>
+                            </g>
+                        </g>
+                    </g>
+                    <path id="Combined-Shape" d="M51.993,1.5L16.67,1.515C16.448,1.505 16.224,1.5 16,1.5C11.996,1.5 8.371,3.123 5.747,5.747C3.123,8.371 1.5,11.996 1.5,16C1.5,20.004 3.123,23.629 5.747,26.253C8.371,28.877 11.996,30.5 16,30.5C19.876,30.5 23.398,28.979 25.999,26.501L43.001,26.501C45.602,28.979 49.124,30.5 53,30.5C57.004,30.5 60.629,28.877 63.253,26.253C65.877,23.629 67.5,20.004 67.5,16C67.5,11.996 65.877,8.371 63.253,5.747C60.624,3.118 56.99,1.5 52.783,1.501C52.605,1.502 52.373,1.504 51.993,1.5Z" style="fill:none;stroke:white;stroke-width:3px;"/>
+                    <circle id="Oval1" serif:id="Oval" cx="53" cy="12" r="1" style="stroke:white;stroke-width:2px;"/>
+                    <circle id="Oval2" serif:id="Oval" cx="49" cy="16" r="1" style="stroke:white;stroke-width:2px;"/>
+                    <circle id="Oval3" serif:id="Oval" cx="57" cy="16" r="1" style="stroke:white;stroke-width:2px;"/>
+                    <circle id="Oval4" serif:id="Oval" cx="53" cy="20" r="1" style="stroke:white;stroke-width:2px;"/>
+                    <circle id="Oval5" serif:id="Oval" cx="53" cy="16" r="9.778" style="fill:none;stroke:white;stroke-width:2.44px;"/>
+                    <g id="Rectangle2" serif:id="Rectangle" transform="matrix(0.866025,-0.5,0.5,0.866025,-4.91377,17.6615)">
+                        <path d="M32,18.5C32,18.224 31.776,18 31.5,18L29.5,18C29.224,18 29,18.224 29,18.5C29,18.776 29.224,19 29.5,19L31.5,19C31.776,19 32,18.776 32,18.5Z" style="fill:none;stroke:white;stroke-width:2px;"/>
+                    </g>
+                    <g id="Rectangle3" serif:id="Rectangle" transform="matrix(0.866025,-0.5,0.5,0.866025,-4.10993,20.6615)">
+                        <path d="M38,18.5C38,18.224 37.776,18 37.5,18L35.5,18C35.224,18 35,18.224 35,18.5C35,18.776 35.224,19 35.5,19L37.5,19C37.776,19 38,18.776 38,18.5Z" style="fill:none;stroke:white;stroke-width:2px;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

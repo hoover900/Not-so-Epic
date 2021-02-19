@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 101 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-280,0)">
+        <g id="Developer" transform="matrix(1,0,0,0.6,280.4,0)">
+            <rect x="0" y="0" width="100" height="100" style="fill:none;"/>
+            <g id="Developer1" serif:id="Developer" transform="matrix(1,0,0,1.66667,13,19.1667)">
+                <g id="PROCESSOR---ICON">
+                    <g id="Group-51" transform="matrix(1,0,0,1,0,12)">
+                        <path id="Rectangle" d="M8,1.5C8,0.672 7.328,0 6.5,0L1.5,0C0.672,0 0,0.672 0,1.5C0,2.328 0.672,3 1.5,3L6.5,3C7.328,3 8,2.328 8,1.5Z" style="fill:white;"/>
+                        <path id="Rectangle1" serif:id="Rectangle" d="M8,6.5C8,5.672 7.328,5 6.5,5L1.5,5C0.672,5 0,5.672 0,6.5C0,7.328 0.672,8 1.5,8L6.5,8C7.328,8 8,7.328 8,6.5Z" style="fill:white;"/>
+                        <path id="Rectangle2" serif:id="Rectangle" d="M8,11.5C8,10.672 7.328,10 6.5,10L1.5,10C0.672,10 0,10.672 0,11.5C0,12.328 0.672,13 1.5,13L6.5,13C7.328,13 8,12.328 8,11.5Z" style="fill:white;"/>
+                    </g>
+                    <g id="Group-52" transform="matrix(1,0,0,1,15,0)">
+                        <g id="Rectangle3" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,15,-8)">
+                            <path d="M15,3.5C15,2.672 14.328,2 13.5,2L9.5,2C8.672,2 8,2.672 8,3.5C8,4.328 8.672,5 9.5,5L13.5,5C14.328,5 15,4.328 15,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle4" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,10,-3)">
+                            <path d="M10,3.5C10,2.672 9.328,2 8.5,2L4.5,2C3.672,2 3,2.672 3,3.5C3,4.328 3.672,5 4.5,5L8.5,5C9.328,5 10,4.328 10,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle5" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,5,2)">
+                            <path d="M5,3.5C5,2.672 4.328,2 3.5,2L-0.5,2C-1.328,2 -2,2.672 -2,3.5C-2,4.328 -1.328,5 -0.5,5L3.5,5C4.328,5 5,4.328 5,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle6" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,30,-23)">
+                            <path d="M30,3.5C30,2.672 29.328,2 28.5,2L24.5,2C23.672,2 23,2.672 23,3.5C23,4.328 23.672,5 24.5,5L28.5,5C29.328,5 30,4.328 30,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle7" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,25,-18)">
+                            <path d="M25,3.5C25,2.672 24.328,2 23.5,2L19.5,2C18.672,2 18,2.672 18,3.5C18,4.328 18.672,5 19.5,5L23.5,5C24.328,5 25,4.328 25,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle8" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,20,-13)">
+                            <path d="M20,3.5C20,2.672 19.328,2 18.5,2L14.5,2C13.672,2 13,2.672 13,3.5C13,4.328 13.672,5 14.5,5L18.5,5C19.328,5 20,4.328 20,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle9" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,45,-38)">
+                            <path d="M45,3.5C45,2.672 44.328,2 43.5,2L39.5,2C38.672,2 38,2.672 38,3.5C38,4.328 38.672,5 39.5,5L43.5,5C44.328,5 45,4.328 45,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle10" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,35,-28)">
+                            <path d="M35,3.5C35,2.672 34.328,2 33.5,2L29.5,2C28.672,2 28,2.672 28,3.5C28,4.328 28.672,5 29.5,5L33.5,5C34.328,5 35,4.328 35,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle11" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,40,-33)">
+                            <path d="M40,3.5C40,2.672 39.328,2 38.5,2L34.5,2C33.672,2 33,2.672 33,3.5C33,4.328 33.672,5 34.5,5L38.5,5C39.328,5 40,4.328 40,3.5Z" style="fill:white;"/>
+                        </g>
+                    </g>
+                    <g id="Group-521" serif:id="Group-52" transform="matrix(1,0,0,1,15,30)">
+                        <g id="Rectangle12" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,15,-8)">
+                            <path d="M15,3.5C15,2.672 14.328,2 13.5,2L9.5,2C8.672,2 8,2.672 8,3.5C8,4.328 8.672,5 9.5,5L13.5,5C14.328,5 15,4.328 15,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle13" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,10,-3)">
+                            <path d="M10,3.5C10,2.672 9.328,2 8.5,2L4.5,2C3.672,2 3,2.672 3,3.5C3,4.328 3.672,5 4.5,5L8.5,5C9.328,5 10,4.328 10,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle14" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,5,2)">
+                            <path d="M5,3.5C5,2.672 4.328,2 3.5,2L-0.5,2C-1.328,2 -2,2.672 -2,3.5C-2,4.328 -1.328,5 -0.5,5L3.5,5C4.328,5 5,4.328 5,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle15" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,30,-23)">
+                            <path d="M30,3.5C30,2.672 29.328,2 28.5,2L24.5,2C23.672,2 23,2.672 23,3.5C23,4.328 23.672,5 24.5,5L28.5,5C29.328,5 30,4.328 30,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle16" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,25,-18)">
+                            <path d="M25,3.5C25,2.672 24.328,2 23.5,2L19.5,2C18.672,2 18,2.672 18,3.5C18,4.328 18.672,5 19.5,5L23.5,5C24.328,5 25,4.328 25,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle17" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,20,-13)">
+                            <path d="M20,3.5C20,2.672 19.328,2 18.5,2L14.5,2C13.672,2 13,2.672 13,3.5C13,4.328 13.672,5 14.5,5L18.5,5C19.328,5 20,4.328 20,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle18" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,45,-38)">
+                            <path d="M45,3.5C45,2.672 44.328,2 43.5,2L39.5,2C38.672,2 38,2.672 38,3.5C38,4.328 38.672,5 39.5,5L43.5,5C44.328,5 45,4.328 45,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle19" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,35,-28)">
+                            <path d="M35,3.5C35,2.672 34.328,2 33.5,2L29.5,2C28.672,2 28,2.672 28,3.5C28,4.328 28.672,5 29.5,5L33.5,5C34.328,5 35,4.328 35,3.5Z" style="fill:white;"/>
+                        </g>
+                        <g id="Rectangle20" serif:id="Rectangle" transform="matrix(7.04481e-16,1,-1,7.04481e-16,40,-33)">
+                            <path d="M40,3.5C40,2.672 39.328,2 38.5,2L34.5,2C33.672,2 33,2.672 33,3.5C33,4.328 33.672,5 34.5,5L38.5,5C39.328,5 40,4.328 40,3.5Z" style="fill:white;"/>
+                        </g>
+                    </g>
+                    <g id="Group-511" serif:id="Group-51" transform="matrix(1,0,0,1,66,12)">
+                        <path id="Rectangle21" serif:id="Rectangle" d="M8,1.5C8,0.672 7.328,0 6.5,0L1.5,0C0.672,0 0,0.672 0,1.5C0,2.328 0.672,3 1.5,3L6.5,3C7.328,3 8,2.328 8,1.5Z" style="fill:white;"/>
+                        <path id="Rectangle22" serif:id="Rectangle" d="M8,6.5C8,5.672 7.328,5 6.5,5L1.5,5C0.672,5 0,5.672 0,6.5C0,7.328 0.672,8 1.5,8L6.5,8C7.328,8 8,7.328 8,6.5Z" style="fill:white;"/>
+                        <path id="Rectangle23" serif:id="Rectangle" d="M8,11.5C8,10.672 7.328,10 6.5,10L1.5,10C0.672,10 0,10.672 0,11.5C0,12.328 0.672,13 1.5,13L6.5,13C7.328,13 8,12.328 8,11.5Z" style="fill:white;"/>
+                    </g>
+                    <path id="Rectangle24" serif:id="Rectangle" d="M66.5,9.056C66.5,7.645 65.355,6.5 63.944,6.5L9.056,6.5C7.645,6.5 6.5,7.645 6.5,9.056L6.5,27.944C6.5,29.355 7.645,30.5 9.056,30.5L63.944,30.5C65.355,30.5 66.5,29.355 66.5,27.944L66.5,9.056Z" style="fill:none;stroke:white;stroke-width:3px;"/>
+                    <rect id="Rectangle25" serif:id="Rectangle" x="12" y="12" width="49" height="13" style="fill:none;stroke:white;stroke-width:2px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
