@@ -157,13 +157,25 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <zIndex>10</zIndex>
         </image>
         <image name="logo">
-            <path>>./${system.theme}/art/logo.svg</path>
+            <path>./${system.theme}/art/logo.svg</path>
             <tile>false</tile>
             <origin>0.5 0.5</origin>
             <pos>0.115 0.04</pos>
             <maxSize>0.208 0.056</maxSize>
             <zIndex>20</zIndex>
         </image>
+        <image name="logo" region="eu">
+			<path>./${system.theme}/art/logo.svg-eu.svg</path>
+		</image>
+		<image name="logo" region="us">
+			<path>./${system.theme}/art/logo.svg-us.svg</path>
+		</image>
+		<image name="logo" region="jp">
+			<path>./${system.theme}/art/logo.svg-jp.svg</path>
+		</image>
+		<image name="logo" region="mix">
+			<path>./${system.theme}/art/logo.svg.svg</path>
+		</image>
         <textlist name="gamelist">
             <selectorColor>1c1c1c</selectorColor>
             <selectedColor>F8F8F8</selectedColor>
