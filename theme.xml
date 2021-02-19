@@ -210,6 +210,14 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <fontSize>0.0186</fontSize>
             <zIndex>30</zIndex>
         </text>
+        <image name="minicontroller" extra="true">
+			<pos>0.311979166666667 0.776851851851852</pos>
+			<size>0.3765625 0.078703703703704</size>
+			<path>./arcade/art/minicontroller.svg</path>
+			<path>./${system.theme}/art/minicontroller.svg</path>
+			<color>ffffff</color>
+			<zIndex>100</zIndex>
+		</image>
         <text name="md_genre, md_players">
             <color>888888</color>
             <forceUppercase>0</forceUppercase>
