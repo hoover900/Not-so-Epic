@@ -19,6 +19,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
     <include subset="colorset" name="Violet" displayName="${violet}">./_art/colors/violet.xml</include>
     <include subset="colorset" name="Cyan" displayName="${cyan}">./_art/colors/cyan.xml</include>
     <include subset="colorset" name="Orange" displayName="${orange}">./_art/colors/orange.xml</include>
+    <include subset="colorset" name="Grey" displayName="${grey}">./_art/colors/grey.xml</include>
     <view name="screen">
         <controllerActivity name="controllerActivity">
             <pos>0.005 0.005</pos>
@@ -177,7 +178,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<path>./${system.theme}/art/logo.svg.svg</path>
 		</image>
         <textlist name="gamelist">
-            <selectorColor>1c1c1c</selectorColor>
+            <selectorColor>${baseColor}</selectorColor>
             <selectedColor>F8F8F8</selectedColor>
             <selectorHeight>0.05</selectorHeight>
             <primaryColor>585858</primaryColor>
