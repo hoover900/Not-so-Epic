@@ -12,6 +12,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 -->
 <theme>
     <formatVersion>7</formatVersion>
+
     <include subset="colorset" name="Blue" displayName="${blue}">./_art/colors/blue.xml</include>
     <include subset="colorset" name="Red" displayName="${red}">./_art/colors/red.xml</include>
     <include subset="colorset" name="Green" displayName="${green}">./_art/colors/green.xml</include>
@@ -20,6 +21,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
     <include subset="colorset" name="Cyan" displayName="${cyan}">./_art/colors/cyan.xml</include>
     <include subset="colorset" name="Orange" displayName="${orange}">./_art/colors/orange.xml</include>
     <include subset="colorset" name="Grey" displayName="${grey}">./_art/colors/grey.xml</include>
+
     <view name="screen">
         <controllerActivity name="controllerActivity">
             <pos>0.005 0.005</pos>
@@ -31,6 +33,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <hotkeyColor>${gradientEndColor}</hotkeyColor>
         </controllerActivity>
     </view>
+
     <view name="system">
         <image name="background" extra="true">
             <path>./_art/var/dot.png</path>
@@ -149,7 +152,8 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <zIndex>50</zIndex>
         </image>
     </view>
-    <view name="basic, detailed, video, grid">
+
+    <view name="basic, detailed, video">
         <image name="background" extra="true">
             <tile>false</tile>
             <path>./${system.theme}/art/background.jpg</path>
@@ -305,6 +309,70 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <zIndex>30</zIndex>
         </text>
     </view>
+
+	<view name="grid">
+		<image name="gridtile.favorite">
+			<path>./_inc/images/favorite.svg</path>
+			<pos>0.75 0</pos>
+			<maxSize>0.25 0.25</maxSize>
+			<horizontalAlignment>right</horizontalAlignment>
+			<origin>0 0</origin>
+			<color>909090ff</color>
+		</image>
+
+		<image name="logo" extra="true">
+			<origin>0 0</origin>
+			<pos>0.052083333333333 0.092592592592593</pos>
+			<maxSize>0.125 0.160185185185185</maxSize>
+			<path>./${system.theme}/art/logo.svg</path>
+		</image>
+		<image name="logo" extra="true" region="eu">
+			<path>./${system.theme}/art/logo-eu.svg</path>
+		</image>
+		<image name="logo" extra="true" region="us">
+			<path>./${system.theme}/art/logo-us.svg</path>
+		</image>
+		<image name="logo" extra="true" region="jp">
+			<path>./${system.theme}/art/logo-jp.svg</path>
+		</image>
+		<image name="logo" extra="true" region="mix">
+			<path>./${system.theme}/art/logo.svg</path>
+		</image>
+
+		<image name="gridOverlay" extra="true">
+			<path>./_art/var/tileoverlay.png</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<zIndex>8</zIndex>
+		</image>
+
+		<imagegrid name="gamegrid">
+			<pos>0.052083333333333 0.199074074074074</pos>
+			<size>0.895833333333333 0.62962962962963</size>
+			<autoLayout>7 2</autoLayout>
+			<margin>-0 0</margin>
+			<autoLayoutSelectedZoom>1.5</autoLayoutSelectedZoom>
+		</imagegrid>
+
+		<gridtile name="default">
+			<size>0.20 0.277777777777778</size>
+			<backgroundColor>42424200</backgroundColor>
+			<imageColor>A5A5A5ff</imageColor>
+		</gridtile>
+
+		<gridtile name="selected">
+			<size>0.20 0.277777777777778</size>
+			<backgroundColor>42424200</backgroundColor>
+			<imageColor>ffffffff</imageColor>
+		</gridtile>
+
+		<text name="md_name">
+			<color>ffffff</color>
+			<fontPath>./_art/Acre.otf</fontPath>
+		</text>
+	</view>
+
     <feature supported="video">
         <view name="video">
             <video name="md_video">
