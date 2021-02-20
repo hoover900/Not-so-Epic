@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+		<variables>
+			<baseColor>1c1c1c</baseColor>
+			<gradientEndColor>1c1c1c</gradientEndColor>
+			<centerFadeColor>c1c1c1</centerFadeColor>    
+			<backgroundColor>3d3d3d</backgroundColor>
+			<bottomBarColor>1c1c1c</bottomBarColor>
+			<glowColor>aaaaaa</glowColor>
+			<systemInfoColor>FAFAFFB0</systemInfoColor>
+			<groupColor>464646</groupColor>
+			<groupSeparatorColor>616161</groupSeparatorColor>
+		</variables>
+</theme>
