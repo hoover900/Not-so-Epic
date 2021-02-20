@@ -186,7 +186,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
     <view name="basic, detailed, video">
         <image name="sidebar" extra="true">
             <tile>false</tile>
-            <path>./_art/sidebar.png</path>
+            <path>./_art/var/sidebar.png</path>
             <size>1 1</size>
             <pos>0 0</pos>
             <zIndex>20</zIndex>
@@ -343,7 +343,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<fontPath>./_art/Acre.otf</fontPath>
 		</text>
 	</view>
-        <!-- TODO: Replace video section with Batocera version of video-->
+        <!-- TODO: Replace video section with Batocera version of video hoover900/Not-so-Epic#43-->
     <feature supported="video">
         <view name="video">
             <video name="md_video">
