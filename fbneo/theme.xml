@@ -2,7 +2,7 @@
     <formatVersion>7</formatVersion>
     <include>./../theme.xml</include>
     <view name="system">
-        <text name="sys_line1" extra="true">
+        <text name="sys_line2" extra="true">
             <text>Final Burn Neo</text>
         </text>
         <text name="shortdescription" extra="true">
