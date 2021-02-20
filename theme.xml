@@ -153,7 +153,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         </image>
     </view>
 
-    <view name="basic, detailed, video">
+    <view name="basic, detailed, video, grid">
         <image name="background" extra="true">
             <tile>false</tile>
             <path>./${system.theme}/art/background.jpg</path>
@@ -161,13 +161,13 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <pos>0 0</pos>
             <zIndex>10</zIndex>
         </image>
-        <image name="logo">
+                <image name="logo">
             <path>./${system.theme}/art/logo.svg</path>
             <tile>false</tile>
             <origin>0.5 0.5</origin>
             <pos>0.115 0.04</pos>
             <maxSize>0.208 0.056</maxSize>
-            <zIndex>20</zIndex>
+            <zIndex>22</zIndex>
         </image>
         <image name="logo" region="eu">
 			<path>./${system.theme}/art/logo.svg-eu.svg</path>
@@ -181,6 +181,17 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		<image name="logo" region="mix">
 			<path>./${system.theme}/art/logo.svg.svg</path>
 		</image>
+    </view>
+
+    <view name="basic, detailed, video">
+        <image name="sidebar" extra="true">
+            <tile>false</tile>
+            <path>./_art/sidebar.png</path>
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <zIndex>20</zIndex>
+        </image>
+        
         <textlist name="gamelist">
             <selectorColor>${baseColor}</selectorColor>
             <selectedColor>F8F8F8</selectedColor>
@@ -196,6 +207,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <horizontalMargin>0.02864</horizontalMargin>
             <zIndex>30</zIndex>
         </textlist>
+
         <text name="md_description">
             <fontPath>./_art/Acre.otf</fontPath>
             <color>818181</color>
@@ -208,6 +220,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <zIndex>30</zIndex>
         </text>
         <!-- Define metadata -->
+        <!-- TODO: Remove once rating, genre, and player lables are removed-->
         <text name="md_lbl_rating, md_lbl_genre, md_lbl_players">
             <color>F8F8F8</color>
             <forceUppercase>0</forceUppercase>
@@ -215,14 +228,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <fontSize>0.0186</fontSize>
             <zIndex>30</zIndex>
         </text>
-        <image name="minicontroller" extra="true">
-			<pos>0.311979166666667 0.776851851851852</pos>
-			<size>0.3765625 0.078703703703704</size>
-			<path>./arcade/art/minicontroller.svg</path>
-			<path>./${system.theme}/art/minicontroller.svg</path>
-			<color>ffffff</color>
-			<zIndex>100</zIndex>
-		</image>
+
         <text name="md_genre, md_players">
             <color>888888</color>
             <forceUppercase>0</forceUppercase>
@@ -230,12 +236,14 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <fontSize>0.0186</fontSize>
             <zIndex>30</zIndex>
         </text>
-        <!-- Place metadata -->
+        <!-- Rating -->
+        <!-- TODO: Remove rating lable -->
         <text name="md_lbl_rating">
             <pos>0.428 0.932</pos>
             <size>0.06 0.07</size>
             <zIndex>30</zIndex>
         </text>
+
         <rating name="md_rating">
             <pos>0.5 0.957</pos>
             <size>0 0.020</size>
@@ -243,11 +251,22 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <unfilledPath>./_art/var/star_hollow.svg</unfilledPath>
             <zIndex>30</zIndex>
         </rating>
+        <!-- Number of players -->
+        <!-- TODO: Remove player lable -->
         <text name="md_lbl_players">
             <pos>0.615 0.932</pos>
             <size>0.06 0.07</size>
             <zIndex>30</zIndex>
         </text>
+
+        <image name="player_icon" extra="true">
+			<pos>0.615 0.932</pos>
+			<size>0 1</size>
+			<path>./arcade/art/player.svg</path>
+			<color>ffffff</color>
+			<zIndex>100</zIndex>
+		</image>
+
         <text name="md_players">
             <fontPath>./_art/Acre.otf</fontPath>
             <color>888888</color>
@@ -256,58 +275,29 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <size>0.06 0.07</size>
             <zIndex>30</zIndex>
         </text>
+        <!-- Genre lext to a mini controller icon -->
+        <!-- TODO: Remove genre lable -->
         <text name="md_lbl_genre">
             <pos>0.770 0.932</pos>
             <size>0.06 0.07</size>
             <zIndex>30</zIndex>
         </text>
+
+        <image name="minicontroller" extra="true">
+			<pos>0.770 0.932</pos>
+			<size>0 1</size>
+			<path>./arcade/art/minicontroller.svg</path>
+			<path>./${system.theme}/art/minicontroller.svg</path>
+			<color>ffffff</color>
+			<zIndex>100</zIndex>
+		</image>
+
         <text name="md_genre">
             <pos>0.817 0.932</pos>
             <size>0.4 0.07</size>
             <zIndex>30</zIndex>
         </text>
-        <!-- Extra Text Labels. Edit text values if needed.-->
-        <text name="players_lbl_2, btn_a, btn_b, btn_x" extra="true">
-            <fontPath>./_art/Acre.otf</fontPath>
-            <color>888888</color>
-            <fontSize>0.0186</fontSize>
-            <zIndex>30</zIndex>
-        </text>
-        <text name="btn_a" extra="true">
-            <text>Enter</text>
-            <pos>0.042 0.933</pos>
-            <size>0.06 0.07</size>
-            <zIndex>30</zIndex>
-        </text>
-        <text name="btn_b" extra="true">
-            <text>Return</text>
-            <pos>0.155 0.933</pos>
-            <size>0.06 0.07</size>
-            <zIndex>30</zIndex>
-        </text>
-        <text name="btn_x" extra="true">
-            <text>Favorite</text>
-            <pos>0.259 0.933</pos>
-            <size>0.06 0.07</size>
-            <zIndex>30</zIndex>
-        </text>
-        <text name="players_lbl_2" extra="true">
-            <text>players</text>
-            <pos>0.689 0.932</pos>
-            <size>0.06 0.07</size>
-            <zIndex>30</zIndex>
-        </text>
-        <text name="txt_descript" extra="true">
-            <text>Description</text>
-            <fontPath>./_art/Acre.otf</fontPath>
-            <alignment>left</alignment>
-            <fontSize>0.0186</fontSize>
-            <color>ffffff</color>
-            <origin>0 0</origin>
-            <pos>0.429 0.724</pos>
-            <size>0.06 0.07</size>
-            <zIndex>30</zIndex>
-        </text>
+        <!-- TODO: Add developer and release date icons and meta data -->
     </view>
 
 	<view name="grid">
@@ -320,25 +310,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<color>909090ff</color>
 		</image>
 
-		<image name="logo" extra="true">
-			<origin>0 0</origin>
-			<pos>0.052083333333333 0.092592592592593</pos>
-			<maxSize>0.125 0.160185185185185</maxSize>
-			<path>./${system.theme}/art/logo.svg</path>
-		</image>
-		<image name="logo" extra="true" region="eu">
-			<path>./${system.theme}/art/logo-eu.svg</path>
-		</image>
-		<image name="logo" extra="true" region="us">
-			<path>./${system.theme}/art/logo-us.svg</path>
-		</image>
-		<image name="logo" extra="true" region="jp">
-			<path>./${system.theme}/art/logo-jp.svg</path>
-		</image>
-		<image name="logo" extra="true" region="mix">
-			<path>./${system.theme}/art/logo.svg</path>
-		</image>
-
 		<image name="gridOverlay" extra="true">
 			<path>./_art/var/tileoverlay.png</path>
 			<size>1 1</size>
@@ -348,8 +319,8 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		</image>
 
 		<imagegrid name="gamegrid">
-			<pos>0.052083333333333 0.199074074074074</pos>
-			<size>0.895833333333333 0.62962962962963</size>
+			<pos>0.5 0.5</pos>
+			<size>0.8 0.8</size>
 			<autoLayout>7 2</autoLayout>
 			<margin>-0 0</margin>
 			<autoLayoutSelectedZoom>1.5</autoLayoutSelectedZoom>
@@ -372,7 +343,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<fontPath>./_art/Acre.otf</fontPath>
 		</text>
 	</view>
-
+        <!-- TODO: Replace video section with Batocera version of video-->
     <feature supported="video">
         <view name="video">
             <video name="md_video">
