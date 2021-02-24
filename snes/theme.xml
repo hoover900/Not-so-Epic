@@ -5,10 +5,10 @@
         <text name="sys_line1" extra="true">
             <text>Super</text>
         </text>
-        <text name="sys_line2" extra="true" region="jp">
+        <text name="sys_line2"  region="jp">
             <text>Famacom</text>
         </text>
-        <text name="sys_line2" extra="true" region="us">
+        <text name="sys_line2" region="us">
             <text>Nintendo</text>
         </text>
         <text name="shortdescription" extra="true">

@@ -2,28 +2,28 @@
     <formatVersion>7</formatVersion>
     <include>./../theme.xml</include>
     <view name="system">
-        <text name="sys_line1" extra="true" region="us">
+        <text name="sys_line1" region="us">
             <text>Nintendo Entertainment</text>
         </text>
-        <text name="sys_line1" extra="true" region="jp">
+        <text name="sys_line1" region="jp">
             <text>Famicom</text>
         </text>
-        <text name="sys_line2" extra="true" region="us">
+        <text name="sys_line2" region="us">
             <text>System</text>
         </text>
-        <text name="sys_line2" extra="true" region="jp">
+        <text name="sys_line2" region="jp">
             <text>Disk System</text>
         </text>
-        <text name="shortdescription" extra="true" region="us">
+        <text name="shortdescription" region="us">
             <text>1985  ·  8-bit Console</text>
         </text>
-        <text name="shortdescription" extra="true" region="jp">
+        <text name="shortdescription" region="jp">
             <text>1983  ·  8-bit Console</text>
         </text>
-        <text name="longdescription" extra="true" region="us">
+        <text name="longdescription" region="us">
             <text>The best selling gaming console of its time, the NES helped revitalize the US video game industry following the video game crash of 1983</text>
         </text>
-        <text name="longdescription" extra="true" region="jp">
+        <text name="longdescription" region="jp">
             <text>The Family Computer (also known by the portmanteau abbreviation Famicom) was the Japanese version of the Nintendo Entertainment System</text>
         </text>
     </view>
