@@ -2,8 +2,11 @@
     <formatVersion>7</formatVersion>
     <include>./../theme.xml</include>
     <view name="system">
-        <text name="sys_line2" extra="true">
+        <text name="sys_line2" extra="true" region="jp">
             <text>PC-Engine</text>
+        </text>
+        <text name="sys_line2" extra="true" region="us">>
+            <text>TurboGrafx 16</text>
         </text>
         <text name="shortdescription" extra="true">
             <text>1987  ·  16-bit Console</text>
