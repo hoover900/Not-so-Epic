@@ -165,7 +165,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <path>./${system.theme}/art/logo.svg</path>
             <tile>false</tile>
             <origin>0.5 0.5</origin>
-            <pos>0.115 0.04</pos>
+            <pos>0.16 0.04</pos>
             <maxSize>0.208 0.056</maxSize>
             <zIndex>22</zIndex>
         </image>
@@ -187,7 +187,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         <image name="sidebar" extra="true">
             <tile>false</tile>
             <path>./_art/var/sidebar.png</path>
-            <size>1 1</size>
             <pos>0 0</pos>
             <zIndex>20</zIndex>
         </image>
@@ -219,85 +218,80 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <size>0.464 0.1111</size>
             <zIndex>30</zIndex>
         </text>
+
         <!-- Define metadata -->
-        <!-- TODO: Remove once rating, genre, and player lables are removed-->
-        <text name="md_lbl_rating, md_lbl_genre, md_lbl_players">
-            <color>F8F8F8</color>
-            <forceUppercase>0</forceUppercase>
-            <fontPath>./_art/Acre.otf</fontPath>
-            <fontSize>0.0186</fontSize>
-            <zIndex>30</zIndex>
-        </text>
-
-        <text name="md_genre, md_players">
-            <color>888888</color>
-            <forceUppercase>0</forceUppercase>
-            <fontPath>./_art/Acre.otf</fontPath>
-            <fontSize>0.0186</fontSize>
-            <zIndex>30</zIndex>
-        </text>
-        <!-- Rating -->
-        <!-- TODO: Remove rating lable -->
-        <text name="md_lbl_rating">
-            <pos>0.428 0.932</pos>
-            <size>0.06 0.07</size>
-            <zIndex>30</zIndex>
-        </text>
-
-        <rating name="md_rating">
-            <pos>0.5 0.957</pos>
-            <size>0 0.020</size>
-            <filledPath>./_art/var/star_filled.svg</filledPath>
-            <unfilledPath>./_art/var/star_hollow.svg</unfilledPath>
-            <zIndex>30</zIndex>
-        </rating>
-        <!-- Number of players -->
-        <!-- TODO: Remove player lable -->
-        <text name="md_lbl_players">
-            <pos>0.615 0.932</pos>
-            <size>0.06 0.07</size>
-            <zIndex>30</zIndex>
-        </text>
-
-        <image name="player_icon" extra="true">
-			<pos>0.615 0.932</pos>
-			<size>0 1</size>
-			<path>./arcade/art/player.svg</path>
-			<color>ffffff</color>
-			<zIndex>100</zIndex>
-		</image>
-
-        <text name="md_players">
+        <text name="md_genre, md_players, md_releasedate, md_developer">
             <fontPath>./_art/Acre.otf</fontPath>
             <color>888888</color>
             <fontSize>0.0186</fontSize>
-            <pos>0.672 0.932</pos>
-            <size>0.06 0.07</size>
-            <zIndex>30</zIndex>
-        </text>
-        <!-- Genre lext to a mini controller icon -->
-        <!-- TODO: Remove genre lable -->
-        <text name="md_lbl_genre">
-            <pos>0.770 0.932</pos>
-            <size>0.06 0.07</size>
             <zIndex>30</zIndex>
         </text>
 
+        <!-- Genre -->
         <image name="minicontroller" extra="true">
-			<pos>0.770 0.932</pos>
-			<size>0 1</size>
+			<pos>0.4 0.945</pos>
+			<size>.045 .045</size>
 			<path>./arcade/art/minicontroller.svg</path>
 			<path>./${system.theme}/art/minicontroller.svg</path>
 			<color>ffffff</color>
 			<zIndex>100</zIndex>
 		</image>
-
         <text name="md_genre">
-            <pos>0.817 0.932</pos>
+            <pos>0.44 0.932</pos>
             <size>0.4 0.07</size>
             <zIndex>30</zIndex>
         </text>
-        <!-- TODO: Add developer and release date icons and meta data -->
+
+<!--         Number of players
+ -->    <image name="player_icon" extra="true">
+			<pos>0.5 0.945</pos>
+			<size>.045 .045</size>
+			<path>./_art/var/Players.svg</path>
+			<color>ffffff</color>
+			<zIndex>100</zIndex>
+		</image>
+        <text name="md_players">
+            <pos>0.54 0.932</pos>
+            <size>0.06 0.07</size>
+            <zIndex>30</zIndex>
+        </text>
+
+        <!-- Developer -->
+        <image name="developer_icon" extra="true">
+			<pos>0.6 0.945</pos>
+			<size>.045 .045</size>
+			<path>./_art/var/Developer.svg</path>
+			<color>ffffff</color>
+			<zIndex>100</zIndex>
+		</image>
+        <text name="md_developer">
+            <pos>0.64 0.932</pos>
+            <size>0.06 0.07</size>
+            <zIndex>30</zIndex>
+        </text>
+
+        <!-- Release Date -->
+        <image name="release_icon" extra="true">
+			<pos>0.7 0.945</pos>
+			<size>.045 .045</size>
+			<path>./_art/var/Release.svg</path>
+			<color>ffffff</color>
+			<zIndex>100</zIndex>
+		</image>
+        <text name="md_releasedate">
+            <pos>0.75 0.932</pos>
+            <size>0.06 0.07</size>
+            <zIndex>30</zIndex>
+        </text>
+
+        <!-- Rating -->
+        <rating name="md_rating">
+            <pos>0.8 0.957</pos>
+            <size>0 0.020</size>
+            <filledPath>./_art/var/star_filled.svg</filledPath>
+            <unfilledPath>./_art/var/star_hollow.svg</unfilledPath>
+            <zIndex>30</zIndex>
+        </rating>
     </view>
 
 	<view name="grid">
@@ -319,11 +313,10 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		</image>
 
 		<imagegrid name="gamegrid">
-			<pos>0.5 0.5</pos>
 			<size>0.8 0.8</size>
-			<autoLayout>7 2</autoLayout>
-			<margin>-0 0</margin>
-			<autoLayoutSelectedZoom>1.5</autoLayoutSelectedZoom>
+			<autoLayout>6 3</autoLayout>
+			<margin>0 0</margin>
+			<autoLayoutSelectedZoom>1.6</autoLayoutSelectedZoom>
 		</imagegrid>
 
 		<gridtile name="default">
@@ -336,6 +329,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<size>0.20 0.277777777777778</size>
 			<backgroundColor>42424200</backgroundColor>
 			<imageColor>ffffffff</imageColor>
+            <padding>55 55</padding>
 		</gridtile>
 
 		<text name="md_name">
