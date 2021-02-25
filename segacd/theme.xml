@@ -2,20 +2,23 @@
     <formatVersion>7</formatVersion>
     <include>./../theme.xml</include>
     <view name="system">
-        <text name="sys_line1" region="jp, eu">
+        <text name="sys_line1" extra="true" region="jp, eu">
             <text>Sega</text>
         </text>
-        <text name="sys_line2" region="jp, eu">
+        <text name="sys_line2" extra="true" region="jp, eu">
             <text>MegaCD</text>
         </text>
-        <text name="sys_line2" region="us">
+        <text name="sys_line2" extra="true" region="us">
             <text>Sega CD</text>
         </text>
         <text name="shortdescription" extra="true">
             <text>1991  ·  16-bit Console</text>
         </text>
-        <text name="longdescription" extra="true">
-            <text>CD-ROM add-on to the Megadrive, it launched many FMV games, including the infamous Night Trap, which led to the creation of the ESRB</text>
+        <text name="longdescription" extra="true" region="jp, eu">
+            <text>CD-ROM add-on for the Megadrive, it launched many FMV games, including the infamous Night Trap, which led to the creation of the ESRB</text>
+        </text>
+        <text name="longdescription" extra="true" region="us">
+            <text>CD-ROM add-on for the Genesis, it launched many FMV games, including the infamous Night Trap, which led to the creation of the ESRB</text>
         </text>
     </view>
 </theme>

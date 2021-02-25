@@ -5,11 +5,14 @@
         <text name="sys_line1" extra="true">
             <text>Sega</text>
         </text>
-        <text name="sys_line2" region="jp">>
+        <text name="sys_line2" extra="true" region="us">
+            <text>Genesis</text>
+        </text>
+        <text name="sys_line2" extra="true" region="jp">
             <text>Megadrive</text>
         </text>
-        <text name="sys_line2" region="us">>
-            <text>Genesis</text>
+        <text name="sys_line2" extra="true" region="eu">
+            <text>Megadrive</text>
         </text>
         <text name="shortdescription" extra="true">
             <text>1988  ·  16-bit Console</text>

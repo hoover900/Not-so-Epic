@@ -2,19 +2,19 @@
     <formatVersion>7</formatVersion>
     <include>./../theme.xml</include>
     <view name="system">
-        <text name="sys_line2" extra="true">
+        <text name="sys_line2" extra="true" region="jp, eu">
             <text>PC-Engine CD</text>
         </text>
-        <text name="sys_line2" region="us">
+        <text name="sys_line2" extra="true" region="us">
             <text>TurboGrafx CD</text>
         </text>
         <text name="shortdescription" extra="true">
             <text>1988  ·  16-bit Console</text>
         </text>
-        <text name="longdescription" extra="true">
+        <text name="longdescription" extra="true" region="jp, eu">
             <text>Add-on attachment for the PC-Engine. The add-on allows core versions of the console to play PC-Engine games in CD-ROM format</text>
         </text>
-        <text name="longdescription" region="us">
+        <text name="longdescription" extra="true" region="us">
             <text>Add-on attachment for the TurboGrafx-16. The add-on allows core versions of the console to play TurboGrafx-16 games in CD-ROM format</text>
         </text>
     </view>

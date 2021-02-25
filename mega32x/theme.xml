@@ -2,11 +2,14 @@
     <formatVersion>7</formatVersion>
     <include>./../theme.xml</include>
     <view name="system">
-        <text name="sys_line1" extra="true">
+        <text name="sys_line1" extra="true" region="jp, eu">
             <text>Sega</text>
         </text>
-        <text name="sys_line2" extra="true">
-            <text>Mega 32x</text>
+        <text name="sys_line2" extra="true" region="jp, eu">
+            <text>Mega 32X</text>
+        </text>
+        <text name="sys_line2" extra="true" region="us">
+            <text>Sega 32X</text>
         </text>
         <text name="shortdescription" extra="true">
             <text>1994  ·  32-bit Console</text>

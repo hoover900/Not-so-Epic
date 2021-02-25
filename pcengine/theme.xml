@@ -2,10 +2,10 @@
     <formatVersion>7</formatVersion>
     <include>./../theme.xml</include>
     <view name="system">
-        <text name="sys_line2" region="jp">
+        <text name="sys_line2" extra="true" region="jp">
             <text>PC-Engine</text>
         </text>
-        <text name="sys_line2" region="us">>
+        <text name="sys_line2" extra="true" region="us, eu">
             <text>TurboGrafx 16</text>
         </text>
         <text name="shortdescription" extra="true">
