@@ -2,19 +2,22 @@
     <formatVersion>7</formatVersion>
     <include>./../theme.xml</include>
     <view name="system">
-        <text name="sys_line1" extra="true" region="jp, eu">
+        <text name="sys_line1" extra="true">
             <text>Sega</text>
         </text>
-        <text name="sys_line2" extra="true" region="jp, eu">
-            <text>Mega 32X</text>
+        <text name="sys_line2" extra="true">
+            <text>32X</text>
         </text>
-        <text name="sys_line2" extra="true" region="us">
-            <text>Sega 32X</text>
+        <text name="sys_line2" extra="true" region="jp">
+            <text>Mega 32X</text>
         </text>
         <text name="shortdescription" extra="true">
             <text>1994  ·  32-bit Console</text>
         </text>
         <text name="longdescription" extra="true">
+            <text>Designed to expand the power of the Genesis and serve as a transitional console into the 32-bit era until the release of the Sega Saturn</text>
+        </text>
+        <text name="longdescription" extra="true" region="jp">
             <text>Designed to expand the power of the Megadrive and serve as a transitional console into the 32-bit era until the release of the Sega Saturn</text>
         </text>
     </view>

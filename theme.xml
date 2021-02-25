@@ -133,9 +133,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		<image name="controller" region="jp">
 			<path>./${system.theme}/art/controller-JP.png</path>
 		</image>
-        <image name="controller" region="eu">
-			<path>./${system.theme}/art/controller-EU.png</path>
-		</image>
         <image name="buttonA" extra="static">
             <path>./_art/var/button.svg</path>
             <tile>false</tile>
@@ -177,10 +174,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		<image name="background" region="jp">
 			<path>./${system.theme}/art/background-JP.jpg</path>
 		</image>
-        <image name="background" region="eu">
-			<path>./${system.theme}/art/background-EU.jpg</path>
-
-		</image>
                 <image name="logo">
             <path>./${system.theme}/art/logo.svg</path>
             <tile>false</tile>
@@ -194,9 +187,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		</image>
 		<image name="logo" region="jp">
 			<path>./${system.theme}/art/logo-JP.svg</path>
-		</image>
-        <image name="logo" region="eu">
-			<path>./${system.theme}/art/logo-EU.svg</path>
 		</image>
     </view>
 
