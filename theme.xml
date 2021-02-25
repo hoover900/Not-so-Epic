@@ -13,14 +13,15 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 <theme>
     <formatVersion>7</formatVersion>
 
-    <include subset="colorset" name="Blue" displayName="${blue}">./_art/colors/blue.xml</include>
+    <include subset="colorset" name="Grey" displayName="${grey}">./_art/colors/grey.xml</include>
     <include subset="colorset" name="Red" displayName="${red}">./_art/colors/red.xml</include>
+    <include subset="colorset" name="Blue" displayName="${blue}">./_art/colors/blue.xml</include>
     <include subset="colorset" name="Green" displayName="${green}">./_art/colors/green.xml</include>
+    <include subset="colorset" name="Cyan" displayName="${cyan}">./_art/colors/cyan.xml</include>
     <include subset="colorset" name="Yellow" displayName="${yellow}">./_art/colors/yellow.xml</include>
     <include subset="colorset" name="Violet" displayName="${violet}">./_art/colors/violet.xml</include>
-    <include subset="colorset" name="Cyan" displayName="${cyan}">./_art/colors/cyan.xml</include>
     <include subset="colorset" name="Orange" displayName="${orange}">./_art/colors/orange.xml</include>
-    <include subset="colorset" name="Grey" displayName="${grey}">./_art/colors/grey.xml</include>
+
 
     <view name="screen">
         <controllerActivity name="controllerActivity">
@@ -126,13 +127,13 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <maxSize>0.35 0.35</maxSize>
             <zIndex>40</zIndex>
         </image>
-        <image name="background" region="us">
+        <image name="controller" region="us">
 			<path>./${system.theme}/art/controller-US.png</path>
 		</image>
-		<image name="background" region="jp">
+		<image name="controller" region="jp">
 			<path>./${system.theme}/art/controller-JP.png</path>
 		</image>
-        <image name="background" region="eu">
+        <image name="controller" region="eu">
 			<path>./${system.theme}/art/controller-EU.png</path>
 		</image>
         <image name="buttonA" extra="static">
@@ -178,6 +179,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		</image>
         <image name="background" region="eu">
 			<path>./${system.theme}/art/background-EU.jpg</path>
+
 		</image>
                 <image name="logo">
             <path>./${system.theme}/art/logo.svg</path>
