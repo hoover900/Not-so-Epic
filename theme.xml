@@ -126,6 +126,15 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <maxSize>0.35 0.35</maxSize>
             <zIndex>40</zIndex>
         </image>
+        <image name="background" region="us">
+			<path>./${system.theme}/art/controller-US.png</path>
+		</image>
+		<image name="background" region="jp">
+			<path>./${system.theme}/art/controller-JP.png</path>
+		</image>
+        <image name="background" region="eu">
+			<path>./${system.theme}/art/controller-EU.png</path>
+		</image>
         <image name="buttonA" extra="static">
             <path>./_art/var/button.svg</path>
             <tile>false</tile>
@@ -161,17 +170,14 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <pos>0 0</pos>
             <zIndex>10</zIndex>
         </image>
-        <image name="background" region="eu">
-			<path>./${system.theme}/art/background-EU.jpg</path>
-		</image>
 		<image name="background" region="us">
 			<path>./${system.theme}/art/background-US.jpg</path>
 		</image>
 		<image name="background" region="jp">
 			<path>./${system.theme}/art/background-JP.jpg</path>
 		</image>
-		<image name="background" region="mix">
-			<path>./${system.theme}/art/background.jpg</path>
+        <image name="background" region="eu">
+			<path>./${system.theme}/art/background-EU.jpg</path>
 		</image>
                 <image name="logo">
             <path>./${system.theme}/art/logo.svg</path>
@@ -181,17 +187,14 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <maxSize>0.208 0.056</maxSize>
             <zIndex>22</zIndex>
         </image>
-        <image name="logo" region="eu">
-			<path>./${system.theme}/art/logo-EU.svg</path>
-		</image>
 		<image name="logo" region="us">
 			<path>./${system.theme}/art/logo-US.svg</path>
 		</image>
 		<image name="logo" region="jp">
 			<path>./${system.theme}/art/logo-JP.svg</path>
 		</image>
-		<image name="logo" region="mix">
-			<path>./${system.theme}/art/logo.svg</path>
+        <image name="logo" region="eu">
+			<path>./${system.theme}/art/logo-EU.svg</path>
 		</image>
     </view>
 
