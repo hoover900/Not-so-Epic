@@ -3,6 +3,9 @@
     <include>./../theme.xml</include>
     <view name="system">
         <text name="sys_line2" extra="true">
+            <text>TurboGrafx 16</text>
+        </text>
+        <text name="sys_line2" extra="true" region="jp">
             <text>PC-Engine</text>
         </text>
         <text name="shortdescription" extra="true">

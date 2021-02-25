@@ -13,14 +13,15 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 <theme>
     <formatVersion>7</formatVersion>
 
-    <include subset="colorset" name="Blue" displayName="${blue}">./_art/colors/blue.xml</include>
+    <include subset="colorset" name="Grey" displayName="${grey}">./_art/colors/grey.xml</include>
     <include subset="colorset" name="Red" displayName="${red}">./_art/colors/red.xml</include>
+    <include subset="colorset" name="Blue" displayName="${blue}">./_art/colors/blue.xml</include>
     <include subset="colorset" name="Green" displayName="${green}">./_art/colors/green.xml</include>
+    <include subset="colorset" name="Cyan" displayName="${cyan}">./_art/colors/cyan.xml</include>
     <include subset="colorset" name="Yellow" displayName="${yellow}">./_art/colors/yellow.xml</include>
     <include subset="colorset" name="Violet" displayName="${violet}">./_art/colors/violet.xml</include>
-    <include subset="colorset" name="Cyan" displayName="${cyan}">./_art/colors/cyan.xml</include>
     <include subset="colorset" name="Orange" displayName="${orange}">./_art/colors/orange.xml</include>
-    <include subset="colorset" name="Grey" displayName="${grey}">./_art/colors/grey.xml</include>
+
 
     <view name="screen">
         <controllerActivity name="controllerActivity">
@@ -126,6 +127,12 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <maxSize>0.35 0.35</maxSize>
             <zIndex>40</zIndex>
         </image>
+        <image name="controller" region="us">
+			<path>./${system.theme}/art/controller-US.png</path>
+		</image>
+		<image name="controller" region="jp">
+			<path>./${system.theme}/art/controller-JP.png</path>
+		</image>
         <image name="buttonA" extra="static">
             <path>./_art/var/button.svg</path>
             <tile>false</tile>
@@ -161,6 +168,12 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <pos>0 0</pos>
             <zIndex>10</zIndex>
         </image>
+		<image name="background" region="us">
+			<path>./${system.theme}/art/background-US.jpg</path>
+		</image>
+		<image name="background" region="jp">
+			<path>./${system.theme}/art/background-JP.jpg</path>
+		</image>
                 <image name="logo">
             <path>./${system.theme}/art/logo.svg</path>
             <tile>false</tile>
@@ -169,17 +182,11 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <maxSize>0.208 0.056</maxSize>
             <zIndex>22</zIndex>
         </image>
-        <image name="logo" region="eu">
-			<path>./${system.theme}/art/logo.svg-eu.svg</path>
-		</image>
 		<image name="logo" region="us">
-			<path>./${system.theme}/art/logo.svg-us.svg</path>
+			<path>./${system.theme}/art/logo-US.svg</path>
 		</image>
 		<image name="logo" region="jp">
-			<path>./${system.theme}/art/logo.svg-jp.svg</path>
-		</image>
-		<image name="logo" region="mix">
-			<path>./${system.theme}/art/logo.svg.svg</path>
+			<path>./${system.theme}/art/logo-JP.svg</path>
 		</image>
     </view>
 

@@ -6,6 +6,9 @@
             <text>Sega</text>
         </text>
         <text name="sys_line2" extra="true">
+            <text>Genesis</text>
+        </text>
+        <text name="sys_line2" extra="true" region="jp">
             <text>Megadrive</text>
         </text>
         <text name="shortdescription" extra="true">
