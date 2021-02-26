@@ -10,19 +10,22 @@ Some controllers and graphics used in this theme are created by great artists wh
 # License
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please see README.md for full details.
 -->
+
 <theme>
-    <formatVersion>7</formatVersion>
+	<formatVersion>7</formatVersion>
+<!-- Files to source when loading this file -->
+	<include subset="colorset" name="Grey" displayName="${grey}">./_art/colors/grey.xml</include>
+	<include subset="colorset" name="Red" displayName="${red}">./_art/colors/red.xml</include>
+	<include subset="colorset" name="Blue" displayName="${blue}">./_art/colors/blue.xml</include>
+	<include subset="colorset" name="Green" displayName="${green}">./_art/colors/green.xml</include>
+	<include subset="colorset" name="Cyan" displayName="${cyan}">./_art/colors/cyan.xml</include>
+	<include subset="colorset" name="Yellow" displayName="${yellow}">./_art/colors/yellow.xml</include>
+	<include subset="colorset" name="Violet" displayName="${violet}">./_art/colors/violet.xml</include>
+	<include subset="colorset" name="Orange" displayName="${orange}">./_art/colors/orange.xml</include>
 
-    <include subset="colorset" name="Grey" displayName="${grey}">./_art/colors/grey.xml</include>
-    <include subset="colorset" name="Red" displayName="${red}">./_art/colors/red.xml</include>
-    <include subset="colorset" name="Blue" displayName="${blue}">./_art/colors/blue.xml</include>
-    <include subset="colorset" name="Green" displayName="${green}">./_art/colors/green.xml</include>
-    <include subset="colorset" name="Cyan" displayName="${cyan}">./_art/colors/cyan.xml</include>
-    <include subset="colorset" name="Yellow" displayName="${yellow}">./_art/colors/yellow.xml</include>
-    <include subset="colorset" name="Violet" displayName="${violet}">./_art/colors/violet.xml</include>
-    <include subset="colorset" name="Orange" displayName="${orange}">./_art/colors/orange.xml</include>
-
+<!-- Option Menu Settings-->
 	<view name="menu">
+
 		<menuText name="menutitle">
 			<fontPath>./_art/BebasNeue.otf</fontPath>
 			<fontSize>0.034</fontSize>
@@ -59,11 +62,13 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<backgroundColor>00000000</backgroundColor>
 			<lineSpacing>2.5</lineSpacing>
 		</menuGroup>
+
 		<menuBackground name="menubg">
 			<color>2F2F2F</color>
 			<cornerSize>32 32</cornerSize>
 		</menuBackground>
-        <menuIcons name="menuicons">
+
+		<menuIcons name="menuicons">
 			<iconKodi>./_art/icons/Kodi.png</iconKodi>
 			<iconSystem>./_art/icons/System.png</iconSystem>
 			<iconUpdates>./_art/icons/Updates.png</iconUpdates>
@@ -83,220 +88,236 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		</menuIcons>
 	</view>
 
-    <view name="screen">
-        <controllerActivity name="controllerActivity">
-            <pos>0.005 0.005</pos>
-            <size>0.085 0.025</size>
-            <itemSpacing>0.003</itemSpacing>
-            <imagePath>./_art/var/gamepad.svg</imagePath>
-            <color>FFFFFF80</color>
-            <activityColor>${baseColor}</activityColor>
-            <hotkeyColor>${gradientEndColor}</hotkeyColor>
-        </controllerActivity>
-    </view>
+<!-- Controller activity icon settings-->
+	<view name="screen">
+		<controllerActivity name="controllerActivity">
+			<pos>0.01 0.01</pos>
+			<size>0.085 0.025</size>
+			<itemSpacing>0.003</itemSpacing>
+			<imagePath>./_art/var/gamepad.svg</imagePath>
+			<color>FFFFFF80</color>
+			<activityColor>${baseColor}</activityColor>
+			<hotkeyColor>${gradientEndColor}</hotkeyColor>
+		</controllerActivity>
+	</view>
 
-    <view name="system">
-        <image name="background" extra="true">
-            <path>./_art/var/dot.png</path>
-            <size>1 1</size>
-            <pos>0 0</pos>
-            <origin>0 0</origin>
-            <zIndex>10</zIndex>
-        </image>
-        <image name="poster" extra="true">
-            <path>./_art/var/poster_missing.jpg</path>
-            <path>./${system.theme}/art/poster.jpg</path>
-            <tile>false</tile>
-            <origin>1 0</origin>
-            <pos>.999 0</pos>
-            <size>0 1</size>
-            <zIndex>30</zIndex>
-        </image>
-        <carousel name="systemcarousel">
-            <type>vertical</type>
-            <color>00000000</color>
-            <origin>1 1</origin>
-            <pos>1 1</pos>
-            <size>0.01 0.01</size>
-            <logoScale>1</logoScale>
-            <logoSize>0.01 0.01</logoSize>
-            <maxLogoCount>0</maxLogoCount>
-        </carousel>
-        <text name="sys_line1" extra="true">
-            <fontPath>./_art/BebasNeue.otf</fontPath>
-            <alignment>left</alignment>
-            <forceUppercase>1</forceUppercase>
-            <color>FFFFFF</color>
-            <fontSize>0.048</fontSize>
-            <origin>0 0</origin>
-            <pos>0.082 0.08</pos>
-            <size>0 0</size>
-            <zIndex>40</zIndex>
-        </text>
-        <text name="sys_line2" extra="true">
-            <fontPath>./_art/BebasNeue.otf</fontPath>
-            <alignment>left</alignment>
-            <forceUppercase>1</forceUppercase>
-            <color>FFFFFF</color>
-            <fontSize>0.18</fontSize>
-            <origin>0 0</origin>
-            <pos>0.082 0.088</pos>
-            <size>0 0</size>
-            <zIndex>40</zIndex>
-        </text>
-        <text name="shortdescription" extra="true">
-            <fontPath>./_art/Acre.otf</fontPath>
-            <alignment>left</alignment>
-            <forceUppercase>0</forceUppercase>
-            <fontSize>0.021</fontSize>
-            <color>262626</color>
-            <origin>0 0</origin>
-            <pos>0.084 0.345</pos>
-            <size>0.320 0.033</size>
-            <zIndex>40</zIndex>
-        </text>
-        <text name="systemInfo">
-            <fontPath>./_art/Acre.otf</fontPath>
-            <alignment>left</alignment>
-            <backgroundColor>00000000</backgroundColor>
-            <forceUppercase>1</forceUppercase>
-            <color>${baseColor}</color>
-            <origin>0 0</origin>
-            <pos>0.082 0.272</pos>
-            <size>0.200 0.039</size>
-            <fontSize>0.0315</fontSize>
-            <zIndex>40</zIndex>
-        </text>
-        <text name="longdescription" extra="true">
-            <fontPath>./_art/Acre.otf</fontPath>
-            <alignment>left</alignment>
-            <forceUppercase>0</forceUppercase>
-            <fontSize>0.021</fontSize>
-            <color>262626</color>
-            <lineSpacing>1.18</lineSpacing>
-            <origin>0 0</origin>
-            <pos>0.084 0.322</pos>
-            <size>0.28 0.20</size>
-            <zIndex>40</zIndex>
-        </text>
-        <image name="controller" extra="true">
-            <path>./${system.theme}/art/controller.png</path>
-            <tile>false</tile>
-            <origin>0 0.5</origin>
-            <pos>0.084 0.774</pos>
-            <maxSize>0.35 0.35</maxSize>
-            <zIndex>40</zIndex>
-        </image>
-        <image name="controller" region="us">
+<!-- 	Main screen settings-->
+	<view name="system">
+	<!-- TODO: Can't the background be replaced with just a solid color instead of an image? it's pretty much set to black and the the lowest layer.-->		
+		<image name="background" extra="true">
+			<path>./_art/var/dot.png</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<zIndex>10</zIndex>
+		</image>
+
+		<image name="poster" extra="true">
+			<path>./_art/var/poster_missing.jpg</path>
+			<path>./${system.theme}/art/poster.jpg</path>
+			<tile>false</tile>
+			<origin>1 0</origin>
+			<pos>.999 0</pos>
+			<size>0 1</size>
+			<zIndex>30</zIndex>
+		</image>
+		TODO: have a toggle 
+		<carousel name="systemcarousel">
+			<type>vertical</type>
+			<color>00000000</color>
+			<origin>1 1</origin>
+			<pos>1 1</pos>
+			<size>0.01 0.01</size>
+			<logoScale>1</logoScale>
+			<logoSize>0.01 0.01</logoSize>
+			<maxLogoCount>0</maxLogoCount>
+		</carousel>
+
+		<text name="sys_line1" extra="true">
+			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>1</forceUppercase>
+			<color>FFFFFF</color>
+			<fontSize>0.048</fontSize>
+			<origin>0 0</origin>
+			<pos>0.082 0.08</pos>
+			<size>0 0</size>
+			<zIndex>40</zIndex>
+		</text>
+
+		<text name="sys_line2" extra="true">
+			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>1</forceUppercase>
+			<color>FFFFFF</color>
+			<fontSize>0.18</fontSize>
+			<origin>0 0</origin>
+			<pos>0.082 0.088</pos>
+			<size>0 0</size>
+			<zIndex>40</zIndex>
+		</text>
+
+		<text name="shortdescription" extra="true">
+			<fontPath>./_art/Acre.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.021</fontSize>
+			<color>262626</color>
+			<origin>0 0</origin>
+			<pos>0.084 0.345</pos>
+			<size>0.320 0.033</size>
+			<zIndex>40</zIndex>
+		</text>
+
+		<text name="systemInfo">
+			<fontPath>./_art/Acre.otf</fontPath>
+			<alignment>left</alignment>
+			<backgroundColor>00000000</backgroundColor>
+			<forceUppercase>1</forceUppercase>
+			<color>${baseColor}</color>
+			<origin>0 0</origin>
+			<pos>0.082 0.272</pos>
+			<size>0.200 0.039</size>
+			<fontSize>0.0315</fontSize>
+			<zIndex>40</zIndex>
+		</text>
+
+		<text name="longdescription" extra="true">
+			<fontPath>./_art/Acre.otf</fontPath>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<fontSize>0.021</fontSize>
+			<color>262626</color>
+			<lineSpacing>1.18</lineSpacing>
+			<origin>0 0</origin>
+			<pos>0.084 0.322</pos>
+			<size>0.28 0.20</size>
+			<zIndex>40</zIndex>
+		</text>
+
+		<image name="controller" extra="true">
+			<path>./${system.theme}/art/controller.png</path>
+			<tile>false</tile>
+			<origin>0 0.5</origin>
+			<pos>0.084 0.774</pos>
+			<maxSize>0.35 0.35</maxSize>
+			<zIndex>40</zIndex>
+		</image>
+		<image name="controller" region="us">
 			<path>./${system.theme}/art/controller-US.png</path>
 		</image>
 		<image name="controller" region="jp">
 			<path>./${system.theme}/art/controller-JP.png</path>
 		</image>
-        <image name="buttonA" extra="static">
-            <path>./_art/var/button.svg</path>
-            <tile>false</tile>
-            <origin>0.5 0.5</origin>
-            <pos>0.945 0.955</pos>
-            <size>0 0.045</size>
-            <zIndex>50</zIndex>
-        </image>
-        <image name="topArrow" extra="static">
-            <path>./_art/var/arrow.svg</path>
-            <tile>false</tile>
-            <origin>0.5 0.5</origin>
-            <pos>0.5 0.045</pos>
-            <size>0 0.025</size>
-            <rotation>180</rotation>
-            <zIndex>50</zIndex>
-        </image>
-        <image name="bottomArrow" extra="static">
-            <path>./_art/var/arrow.svg</path>
-            <tile>false</tile>
-            <origin>0.5 0.5</origin>
-            <pos>0.5 0.955</pos>
-            <size>0 0.025</size>
-            <zIndex>50</zIndex>
-        </image>
-    </view>
 
-    <view name="basic, detailed, video, grid">
-        <image name="background" extra="true">
-            <tile>false</tile>
-            <path>./${system.theme}/art/background.jpg</path>
-            <size>1 1</size>
-            <pos>0 0</pos>
-            <zIndex>10</zIndex>
-        </image>
+		<image name="buttonA" extra="static">
+			<path>./_art/var/button.svg</path>
+			<tile>false</tile>
+			<origin>0.5 0.5</origin>
+			<pos>0.945 0.955</pos>
+			<size>0 0.045</size>
+			<zIndex>50</zIndex>
+		</image>
+
+		<image name="topArrow" extra="static">
+			<path>./_art/var/arrow.svg</path>
+			<tile>false</tile>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.045</pos>
+			<size>0 0.025</size>
+			<rotation>180</rotation>
+			<zIndex>50</zIndex>
+		</image>
+
+		<image name="bottomArrow" extra="static">
+			<path>./_art/var/arrow.svg</path>
+			<tile>false</tile>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.955</pos>
+			<size>0 0.025</size>
+			<zIndex>50</zIndex>
+		</image>
+	</view>
+
+	<!-- Subscreen Settings -->
+	<view name="basic, detailed, video, grid">
+		<image name="background" extra="true">
+			<tile>false</tile>
+			<path>./${system.theme}/art/background.jpg</path>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<zIndex>10</zIndex>
+		</image>
 		<image name="background" region="us">
 			<path>./${system.theme}/art/background-US.jpg</path>
 		</image>
 		<image name="background" region="jp">
 			<path>./${system.theme}/art/background-JP.jpg</path>
 		</image>
-                <image name="logo">
-            <path>./${system.theme}/art/logo.svg</path>
-            <tile>false</tile>
-            <origin>0.5 0.5</origin>
-            <pos>0.16 0.04</pos>
-            <maxSize>0.208 0.056</maxSize>
-            <zIndex>22</zIndex>
-        </image>
+		
+		<image name="logo">
+			<path>./${system.theme}/art/logo.svg</path>
+			<tile>false</tile>
+			<origin>0.5 0.5</origin>
+			<pos>0.16 0.04</pos>
+			<maxSize>0.208 0.056</maxSize>
+			<zIndex>22</zIndex>
+		</image>
 		<image name="logo" region="us">
 			<path>./${system.theme}/art/logo-US.svg</path>
 		</image>
 		<image name="logo" region="jp">
 			<path>./${system.theme}/art/logo-JP.svg</path>
 		</image>
-    </view>
+	</view>
 
-    <view name="basic, detailed, video">
-        <image name="sidebar" extra="true">
-            <tile>false</tile>
-            <path>./_art/var/sidebar.png</path>
-            <pos>0 0</pos>
-            <zIndex>20</zIndex>
-        </image>
-        
-        <textlist name="gamelist">
-            <selectorColor>${baseColor}</selectorColor>
-            <selectorColorEnd>${gradientEndColor}</selectorColorEnd>
-            <selectedColor>F8F8F8</selectedColor>
-            <selectorHeight>0.05</selectorHeight>
-            <primaryColor>585858</primaryColor>
-            <secondaryColor>888888</secondaryColor>
-            <fontPath>./_art/Acre.otf</fontPath>
-            <alignment>left</alignment>
-            <pos>0 0.0833</pos>
-            <size>0.323 0.8513</size>
-            <fontSize>0.03</fontSize>
-            <lineSpacing>1.683</lineSpacing>
-            <horizontalMargin>0.02864</horizontalMargin>
-            <zIndex>30</zIndex>
-        </textlist>
+	<view name="basic, detailed, video">
+		<image name="sidebar" extra="true">
+			<tile>false</tile>
+			<path>./_art/var/sidebar.png</path>
+			<pos>0 0</pos>
+			<zIndex>20</zIndex>
+		</image>
+		
+		<textlist name="gamelist">
+			<selectorColor>${baseColor}</selectorColor>
+			<selectorColorEnd>${gradientEndColor}</selectorColorEnd>
+			<selectedColor>F8F8F8</selectedColor>
+			<selectorHeight>0.05</selectorHeight>
+			<primaryColor>585858</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_art/Acre.otf</fontPath>
+			<alignment>left</alignment>
+			<pos>0 0.0833</pos>
+			<size>0.323 0.8513</size>
+			<fontSize>0.03</fontSize>
+			<lineSpacing>1.683</lineSpacing>
+			<horizontalMargin>0.02864</horizontalMargin>
+			<zIndex>30</zIndex>
+		</textlist>
 
-        <text name="md_description">
-            <fontPath>./_art/Acre.otf</fontPath>
-            <color>818181</color>
-            <fontSize>0.02</fontSize>
-            <alignment>left</alignment>
-            <forceUppercase>0</forceUppercase>
-            <lineSpacing>1</lineSpacing>
-            <pos>0.429 0.787</pos>
-            <size>0.464 0.1111</size>
-            <zIndex>30</zIndex>
-        </text>
+		<text name="md_description">
+			<fontPath>./_art/Acre.otf</fontPath>
+			<color>818181</color>
+			<fontSize>0.02</fontSize>
+			<alignment>left</alignment>
+			<forceUppercase>0</forceUppercase>
+			<lineSpacing>1</lineSpacing>
+			<pos>0.429 0.787</pos>
+			<size>0.464 0.1111</size>
+			<zIndex>30</zIndex>
+		</text>
 
-        <!-- Define metadata -->
-        <text name="md_genre, md_players, md_releasedate, md_developer">
-            <fontPath>./_art/Acre.otf</fontPath>
-            <color>888888</color>
-            <fontSize>0.0186</fontSize>
-            <zIndex>30</zIndex>
-        </text>
+		<!-- Define metadata -->
+		<text name="md_genre, md_players, md_releasedate, md_developer">
+			<fontPath>./_art/Acre.otf</fontPath>
+			<color>888888</color>
+			<fontSize>0.0186</fontSize>
+			<zIndex>30</zIndex>
+		</text>
 
-        <!-- Genre -->
-        <image name="minicontroller" extra="true">
+		<!-- Genre -->
+		<image name="minicontroller" extra="true">
 			<pos>0.4 0.945</pos>
 			<size>.045 .045</size>
 			<path>./arcade/art/minicontroller.svg</path>
@@ -304,63 +325,63 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<color>ffffff</color>
 			<zIndex>100</zIndex>
 		</image>
-        <text name="md_genre">
-            <pos>0.44 0.932</pos>
-            <size>0.4 0.07</size>
-            <zIndex>30</zIndex>
-        </text>
+		<text name="md_genre">
+			<pos>0.44 0.932</pos>
+			<size>0.4 0.07</size>
+			<zIndex>30</zIndex>
+		</text>
 
-<!--         Number of players
- -->    <image name="player_icon" extra="true">
+<!--         Number of players-->
+		<image name="player_icon" extra="true">
 			<pos>0.5 0.945</pos>
 			<size>.045 .045</size>
 			<path>./_art/var/Players.svg</path>
 			<color>ffffff</color>
 			<zIndex>100</zIndex>
 		</image>
-        <text name="md_players">
-            <pos>0.54 0.932</pos>
-            <size>0.06 0.07</size>
-            <zIndex>30</zIndex>
-        </text>
+		<text name="md_players">
+			<pos>0.54 0.932</pos>
+			<size>0.06 0.07</size>
+			<zIndex>30</zIndex>
+		</text>
 
-        <!-- Developer -->
-        <image name="developer_icon" extra="true">
+		<!-- Developer -->
+		<image name="developer_icon" extra="true">
 			<pos>0.6 0.945</pos>
 			<size>.045 .045</size>
 			<path>./_art/var/Developer.svg</path>
 			<color>ffffff</color>
 			<zIndex>100</zIndex>
 		</image>
-        <text name="md_developer">
-            <pos>0.64 0.932</pos>
-            <size>0.06 0.07</size>
-            <zIndex>30</zIndex>
-        </text>
+		<text name="md_developer">
+			<pos>0.64 0.932</pos>
+			<size>0.06 0.07</size>
+			<zIndex>30</zIndex>
+		</text>
 
-        <!-- Release Date -->
-        <image name="release_icon" extra="true">
+		<!-- Release Date -->
+		<image name="release_icon" extra="true">
 			<pos>0.7 0.945</pos>
 			<size>.045 .045</size>
 			<path>./_art/var/Release.svg</path>
 			<color>ffffff</color>
 			<zIndex>100</zIndex>
 		</image>
-        <text name="md_releasedate">
-            <pos>0.75 0.932</pos>
-            <size>0.06 0.07</size>
-            <zIndex>30</zIndex>
-        </text>
+		<text name="md_releasedate">
+			<pos>0.75 0.932</pos>
+			<size>0.06 0.07</size>
+			<zIndex>30</zIndex>
+		</text>
 
-        <!-- Rating -->
-        <rating name="md_rating">
-            <pos>0.8 0.957</pos>
-            <size>0 0.020</size>
-            <filledPath>./_art/var/star_filled.svg</filledPath>
-            <unfilledPath>./_art/var/star_hollow.svg</unfilledPath>
-            <zIndex>30</zIndex>
-        </rating>
-    </view>
+		<!-- Rating -->
+		<rating name="md_rating">
+			<pos>0.8 0.957</pos>
+			<size>0 0.020</size>
+			<filledPath>./_art/var/star_filled.svg</filledPath>
+			<unfilledPath>./_art/var/star_hollow.svg</unfilledPath>
+			<zIndex>30</zIndex>
+		</rating>
+	</view>
 
 	<view name="grid">
 		<image name="gridtile.favorite">
@@ -397,7 +418,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<size>0.20 0.277777777777778</size>
 			<backgroundColor>42424200</backgroundColor>
 			<imageColor>ffffffff</imageColor>
-            <padding>55 55</padding>
+			<padding>55 55</padding>
 		</gridtile>
 
 		<text name="md_name">
@@ -405,17 +426,17 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<fontPath>./_art/Acre.otf</fontPath>
 		</text>
 	</view>
-        <!-- TODO: Replace video section with Batocera version of video hoover900/Not-so-Epic#43-->
-    <feature supported="video">
-        <view name="video">
-            <video name="md_video">
-                <origin>0.5 0.5</origin>
-                <pos>0.66 0.38</pos>
-                <maxSize>0.64 0.64</maxSize>
-                <delay>2</delay>
-                <showSnapshotNoVideo>true</showSnapshotNoVideo>
-                <showSnapshotDelay>true</showSnapshotDelay>
-            </video>
-        </view>
-    </feature>
+		<!-- TODO: Replace video section with Batocera version of video hoover900/Not-so-Epic#43-->
+	<feature supported="video">
+		<view name="video">
+			<video name="md_video">
+				<origin>0.5 0.5</origin>
+				<pos>0.66 0.38</pos>
+				<maxSize>0.64 0.64</maxSize>
+				<delay>2</delay>
+				<showSnapshotNoVideo>true</showSnapshotNoVideo>
+				<showSnapshotDelay>true</showSnapshotDelay>
+			</video>
+		</view>
+	</feature>
 </theme>
