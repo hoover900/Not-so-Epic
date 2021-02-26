@@ -22,6 +22,66 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
     <include subset="colorset" name="Violet" displayName="${violet}">./_art/colors/violet.xml</include>
     <include subset="colorset" name="Orange" displayName="${orange}">./_art/colors/orange.xml</include>
 
+	<view name="menu">
+		<menuText name="menutitle">
+			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<fontSize>0.034</fontSize>
+			<color>d9d9d9</color>
+		</menuText>
+
+		<menuText name="menufooter">
+			<fontPath>./_art/Acre.otf</fontPath>
+			<fontSize>0.015</fontSize>
+			<color>777777FF</color>
+		</menuText>
+
+		<menuText name="menutext">
+			<fontPath>./_art/Acre.otf</fontPath>
+			<fontSize>0.030</fontSize>
+			<color>969696</color>
+			<separatorColor>3c3c3c</separatorColor>
+			<selectorColor>${baseColor}</selectorColor>
+			<selectorColorEnd>${gradientEndColor}</selectorColorEnd>
+			<!--<selectedColor>ffffff</selectedColor>-->
+		</menuText>
+
+		<menuTextSmall name="menutextsmall">
+			<fontPath>./_art/Acre.otf</fontPath>
+			<fontSize>0.02</fontSize>
+			<color>909090FF</color>
+		</menuTextSmall>
+
+		<menuGroup name="menugroup">
+			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<fontSize>0.015</fontSize>
+			<color>ffffff</color>
+			<separatorColor>3c3c3c</separatorColor>    
+			<backgroundColor>00000000</backgroundColor>
+			<lineSpacing>2.5</lineSpacing>
+		</menuGroup>
+		<menuBackground name="menubg">
+			<color>2F2F2F</color>
+			<cornerSize>32 32</cornerSize>
+		</menuBackground>
+        <menuIcons name="menuicons">
+			<iconKodi>./_art/icons/Kodi.png</iconKodi>
+			<iconSystem>./_art/icons/System.png</iconSystem>
+			<iconUpdates>./_art/icons/Updates.png</iconUpdates>
+			<iconGames>./_art/icons/Games.png</iconGames>
+			<iconControllers>./_art/icons/Controllers.png</iconControllers>
+			<iconUI>./_art/icons/UI.png</iconUI>
+			<iconSound>./_art/icons/Sound.png</iconSound>
+			<iconNetwork>./_art/icons/Network.png</iconNetwork>
+			<iconScraper>./_art/icons/Scraper.png</iconScraper>
+			<iconAdvanced>./_art/icons/Advanced.png</iconAdvanced>
+			<iconQuit>./_art/icons/Quit.png</iconQuit>
+			<iconRestart>./_art/icons/Restart.png</iconRestart>
+			<iconShutdown>./_art/icons/Shutdown.png</iconShutdown>
+			<iconFastShutdown>./_art/icons/Fastshutdown.png</iconFastShutdown>
+			<iconRetroachievements>./_art/icons/Contest.png</iconRetroachievements>
+			<iconManual>./_art/icons/Manual.png</iconManual>
+		</menuIcons>
+	</view>
 
     <view name="screen">
         <controllerActivity name="controllerActivity">
@@ -200,6 +260,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
         
         <textlist name="gamelist">
             <selectorColor>${baseColor}</selectorColor>
+            <selectorColorEnd>${gradientEndColor}</selectorColorEnd>
             <selectedColor>F8F8F8</selectedColor>
             <selectorHeight>0.05</selectorHeight>
             <primaryColor>585858</primaryColor>
