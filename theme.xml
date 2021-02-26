@@ -100,7 +100,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
             <alignment>left</alignment>
             <backgroundColor>00000000</backgroundColor>
             <forceUppercase>1</forceUppercase>
-            <color>${systemInfoColor}</color>
+            <color>${baseColor}</color>
             <origin>0 0</origin>
             <pos>0.082 0.272</pos>
             <size>0.200 0.039</size>
