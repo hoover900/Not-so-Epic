@@ -91,7 +91,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 <!-- Controller activity icon settings-->
 	<view name="screen">
 		<controllerActivity name="controllerActivity">
-			<pos>0.01 0.01</pos>
+			<pos>0.02 0.02</pos>
 			<size>0.085 0.025</size>
 			<itemSpacing>0.003</itemSpacing>
 			<imagePath>./_art/var/gamepad.svg</imagePath>
@@ -121,7 +121,8 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<size>0 1</size>
 			<zIndex>30</zIndex>
 		</image>
-		TODO: have a toggle 
+
+		<!-- TODO: have a toggle from vertical and horizontal-->		
 		<carousel name="systemcarousel">
 			<type>vertical</type>
 			<color>00000000</color>
