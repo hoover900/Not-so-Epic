@@ -91,9 +91,9 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 <!-- Controller activity icon settings-->
 	<view name="screen">
 		<controllerActivity name="controllerActivity">
-			<pos>0.02 0.02</pos>
-			<size>0.085 0.025</size>
-			<itemSpacing>0.003</itemSpacing>
+			<pos>0.946 0.0161</pos>
+			<size>0.089 0.029</size>
+			<itemSpacing>-0.038</itemSpacing>
 			<imagePath>./_art/var/gamepad.svg</imagePath>
 			<color>FFFFFF80</color>
 			<activityColor>${baseColor}</activityColor>
