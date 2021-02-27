@@ -88,14 +88,17 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		</menuIcons>
 	</view>
 
-	<view name="menu, system">
+	<view name="menu, system, basic, detailed, video, grid">
 		<helpsystem name="help">
-			fontPath>./_art/Acre.otf</fontPath>
-			<fontSize>0.03</fontSize>
-			<iconA>./art/help/a.svg</iconA>
-			<iconB>./art/help/b.svg</iconB>
-			<iconX>./art/help/x.svg</iconX>
-			<iconY>./art/help/y.svg</iconY>
+			<fontPath>./_art/BebasNeue.otf</fontPath>
+			<fontSize>0.02</fontSize>
+			<color>ffffff</color>
+			<pos>.98 .98</pos>
+			<origin>1 1</origin>
+			<iconA>./_art/help/a.svg</iconA>
+			<iconB>./_art/help/b.svg</iconB>
+			<iconX>./_art/help/x.svg</iconX>
+			<iconY>./_art/help/y.svg</iconY>
 		</helpsystem>
 	</view>
 <!-- Controller activity icon settings-->
