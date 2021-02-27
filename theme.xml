@@ -201,7 +201,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<tile>false</tile>
 			<origin>0 0.5</origin>
 			<pos>0.084 0.774</pos>
-			<maxSize>0.35 0.35</maxSize>
 			<zIndex>40</zIndex>
 		</image>
 		<image name="controller" region="us">
