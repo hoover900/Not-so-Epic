@@ -227,6 +227,11 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<pos>0.5 0.045</pos>
 			<size>0 0.025</size>
 			<rotation>180</rotation>
+			<storyboard>
+                <animation property="scale" from="2.8" duration="350" mode="EaseInOut"/>
+				<animation property="y" from="0.025" duration="200" mode="EaseInOut"/>
+
+            </storyboard>
 			<zIndex>50</zIndex>
 		</image>
 
@@ -236,6 +241,11 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.955</pos>
 			<size>0 0.025</size>
+			 <storyboard>
+                <animation property="scale" from="2.8" duration="350" mode="EaseInOut"/>
+				<animation property="y" from="0.975" duration="200" mode="EaseInOut"/>
+
+            </storyboard>
 			<zIndex>50</zIndex>
 		</image>
 	</view>
