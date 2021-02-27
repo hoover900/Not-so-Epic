@@ -197,6 +197,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		</text>
 
 		<image name="controller" extra="true">
+			<path>./_art/missing/missing-controller.svg</path>
 			<path>./${system.theme}/art/controller.png</path>
 			<tile>false</tile>
 			<origin>0 0.5</origin>
