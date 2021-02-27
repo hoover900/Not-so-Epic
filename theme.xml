@@ -113,7 +113,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		</image>
 
 		<image name="poster" extra="true">
-			<path>./_art/var/poster_missing.jpg</path>
+			<path>./_art/var/fallback.svg</path>
 			<path>./${system.theme}/art/poster.jpg</path>
 			<tile>false</tile>
 			<origin>1 0</origin>
@@ -228,10 +228,9 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<size>0 0.025</size>
 			<rotation>180</rotation>
 			<storyboard>
-                <animation property="scale" from="2.8" duration="350" mode="EaseInOut"/>
+				<animation property="scale" from="2.8" duration="350" mode="EaseInOut"/>
 				<animation property="y" from="0.025" duration="200" mode="EaseInOut"/>
-
-            </storyboard>
+			</storyboard>
 			<zIndex>50</zIndex>
 		</image>
 
@@ -242,10 +241,9 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<pos>0.5 0.955</pos>
 			<size>0 0.025</size>
 			 <storyboard>
-                <animation property="scale" from="2.8" duration="350" mode="EaseInOut"/>
+				<animation property="scale" from="2.8" duration="350" mode="EaseInOut"/>
 				<animation property="y" from="0.975" duration="200" mode="EaseInOut"/>
-
-            </storyboard>
+			</storyboard>
 			<zIndex>50</zIndex>
 		</image>
 	</view>
@@ -254,6 +252,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 	<view name="basic, detailed, video, grid">
 		<image name="background" extra="true">
 			<tile>false</tile>
+			<path>./_art/var/fallback.svg</path>
 			<path>./${system.theme}/art/background.jpg</path>
 			<size>1 1</size>
 			<pos>0 0</pos>
@@ -342,7 +341,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<zIndex>30</zIndex>
 		</text>
 
-<!--         Number of players-->
+		<!-- Number of players-->
 		<image name="player_icon" extra="true">
 			<pos>0.5 0.945</pos>
 			<size>.045 .045</size>
