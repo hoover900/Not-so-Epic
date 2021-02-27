@@ -88,6 +88,16 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		</menuIcons>
 	</view>
 
+	<view name="menu, system">
+		<helpsystem name="help">
+			fontPath>./_art/Acre.otf</fontPath>
+			<fontSize>0.03</fontSize>
+			<iconA>./art/help/a.svg</iconA>
+			<iconB>./art/help/b.svg</iconB>
+			<iconX>./art/help/x.svg</iconX>
+			<iconY>./art/help/y.svg</iconY>
+		</helpsystem>
+	</view>
 <!-- Controller activity icon settings-->
 	<view name="screen">
 		<controllerActivity name="controllerActivity">
@@ -113,7 +123,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 		</image>
 
 		<image name="poster" extra="true">
-			<path>./_art/var/fallback.svg</path>
 			<path>./${system.theme}/art/poster.jpg</path>
 			<tile>false</tile>
 			<origin>1 0</origin>
@@ -170,7 +179,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<zIndex>40</zIndex>
 		</text>
 
-		<text name="systemInfo">
+		<text name="systemInfo" extra="static">
 			<fontPath>./_art/Acre.otf</fontPath>
 			<alignment>left</alignment>
 			<backgroundColor>00000000</backgroundColor>
@@ -252,7 +261,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 	<view name="basic, detailed, video, grid">
 		<image name="background" extra="true">
 			<tile>false</tile>
-			<path>./_art/missing/missing_background.svg</path>
+			<path>./_art/missing/missing-background.svg</path>
 			<path>./${system.theme}/art/background.jpg</path>
 			<size>1 1</size>
 			<pos>0 0</pos>
