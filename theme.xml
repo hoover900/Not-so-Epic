@@ -252,7 +252,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 	<view name="basic, detailed, video, grid">
 		<image name="background" extra="true">
 			<tile>false</tile>
-			<path>./_art/var/fallback.svg</path>
+			<path>./_art/missing/missing_background.svg</path>
 			<path>./${system.theme}/art/background.jpg</path>
 			<size>1 1</size>
 			<pos>0 0</pos>
