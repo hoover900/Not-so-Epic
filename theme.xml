@@ -90,11 +90,12 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 
 	<view name="menu, system, basic, detailed, video, grid">
 		<helpsystem name="help">
+			<textColor>FFFFFF50</textColor>
 			<fontPath>./_art/BebasNeue.otf</fontPath>
 			<fontSize>0.02</fontSize>
-			<color>ffffff</color>
-			<pos>.98 .98</pos>
+			<pos>.99 .98</pos>
 			<origin>1 1</origin>
+			<iconColor>FFFFFF50</iconColor>
 			<iconA>./_art/help/a.svg</iconA>
 			<iconB>./_art/help/b.svg</iconB>
 			<iconX>./_art/help/x.svg</iconX>
@@ -108,7 +109,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<size>0.089 0.029</size>
 			<itemSpacing>-0.038</itemSpacing>
 			<imagePath>./_art/var/gamepad.svg</imagePath>
-			<color>FFFFFF80</color>
+			<color>FFFFFF50</color>
 			<activityColor>${baseColor}</activityColor>
 			<hotkeyColor>${gradientEndColor}</hotkeyColor>
 		</controllerActivity>
@@ -223,7 +224,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<path>./${system.theme}/art/controller-JP.png</path>
 		</image>
 
-		<image name="buttonA" extra="static">
+		<image name="buttonA" extra="static" ifHelpPrompts="false">
 			<path>./_art/var/button.svg</path>
 			<tile>false</tile>
 			<origin>0.5 0.5</origin>
@@ -317,6 +318,35 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<horizontalMargin>0.02864</horizontalMargin>
 			<zIndex>30</zIndex>
 		</textlist>
+
+<!-- 		<image name="md_thumbnail">
+			<origin>0.5 1</origin>
+			<pos>0.4 0.75</pos>
+			<rotation>-15</rotation>
+			<maxSize>0.25 0.25</maxSize>
+			<zIndex>50</zIndex>
+		</image> -->
+
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.66 0.4</pos>
+			<maxSize>0.75 0.75</maxSize>
+			<zIndex>40</zIndex>
+			<delay>1.5</delay>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<effect>none</effect>
+			<loops>3</loops>
+		</video>
+
+		<image name="md_marquee">
+			<pos>0.66 0.735</pos>
+			<origin>0.5 1</origin>
+			<maxSize>0.32 0.32</maxSize>
+			<zIndex>60</zIndex>
+			<glowColor>FFFFFF</glowColor>
+			<glowSize>4</glowSize>
+		</image>
 
 		<text name="md_description">
 			<fontPath>./_art/Acre.otf</fontPath>
@@ -448,17 +478,4 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<fontPath>./_art/Acre.otf</fontPath>
 		</text>
 	</view>
-		<!-- TODO: Replace video section with Batocera version of video hoover900/Not-so-Epic#43-->
-	<feature supported="video">
-		<view name="video">
-			<video name="md_video">
-				<origin>0.5 0.5</origin>
-				<pos>0.66 0.38</pos>
-				<maxSize>0.64 0.64</maxSize>
-				<delay>2</delay>
-				<showSnapshotNoVideo>true</showSnapshotNoVideo>
-				<showSnapshotDelay>true</showSnapshotDelay>
-			</video>
-		</view>
-	</feature>
 </theme>
