@@ -344,8 +344,6 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 			<origin>0.5 1</origin>
 			<maxSize>0.32 0.32</maxSize>
 			<zIndex>60</zIndex>
-			<glowColor>FFFFFF</glowColor>
-			<glowSize>4</glowSize>
 		</image>
 
 		<text name="md_description">
